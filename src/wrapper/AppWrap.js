@@ -18,5 +18,3 @@ const AppWrap = (Component, idName, classNames) =>
   };
 
 export default AppWrap;
-
-// flex-1 w-1 flex-col py-16 px-8 flex justify-center items-center

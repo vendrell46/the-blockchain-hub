@@ -15,39 +15,31 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100] px-3">
       <div className="flex justify-between items-center w-full px-2 2xl:px-16">
-        <Image
-          src="/../public/assets/logo.png"
-          alt="/"
-          width={300}
-          height={0}
-        />
+        <Link href="/#Home">
+          <Image
+            src="/../public/assets/logo.png"
+            alt="/"
+            width={300}
+            height={0}
+          />
+        </Link>
+
         <div>
           <ul className="hidden md:flex">
-            <Link href="/#Home">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </Link>
             <Link href="/#Blockchain">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-5 text-xs uppercase hover:border-b py-10">
                 Blockchain
               </li>
             </Link>
             <Link href="/#SmartContract">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-5 text-xs uppercase hover:border-b py-10">
                 Smart Contract
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Twitter
+              <li className="ml-5 mr-8 text-xs uppercase hover:border-b py-10">
+                Social Media
               </li>
-            </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Youtube
-              </li>
-            </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">More</li>
             </Link>
           </ul>
           {/* Hamburger icon */}
@@ -92,24 +84,31 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
-                <li className="py-4 text-sm">Home</li>
+              <Link href="/#Home">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Home
+                </li>
+              </Link>
+              <Link href="/#Blockchain">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Blockchain
+                </li>
+              </Link>
+              <Link href="/#SmartContract">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Smart Contract
+                </li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm">Blockchain</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Social Media
+                </li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">Smart Contract</li>
-              </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">Twitter</li>
-              </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">Youtube</li>
-              </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">More</li>
-              </Link>
+              {/* <Link href="/">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  More
+                </li>
+              </Link> */}
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">

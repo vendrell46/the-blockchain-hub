@@ -10,12 +10,19 @@
   },
   "dependencies": {
     "@next/font": "13.1.5",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "dotenv": "^16.0.3",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
+    "ethers": "^5.7.2",
     "next": "13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.7.1"
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "styled-components": "^5.3.6",
+    "walletlink": "^2.5.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
