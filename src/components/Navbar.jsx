@@ -38,7 +38,7 @@ const Navbar = () => {
             </Link>
             <Link href="/">
               <li className="ml-5 mr-8 text-xs uppercase hover:border-b py-10">
-                Social Media
+                Twitter
               </li>
             </Link>
           </ul>
@@ -101,7 +101,7 @@ const Navbar = () => {
               </Link>
               <Link href="/">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Social Media
+                  Twitter
                 </li>
               </Link>
               {/* <Link href="/">

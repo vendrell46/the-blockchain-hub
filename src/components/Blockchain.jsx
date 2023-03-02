@@ -1,33 +1,27 @@
-import Image from 'next/image';
 import React from 'react';
+import { useRouter } from 'next/router';
 
 import { AppWrap } from '../wrapper';
+import Link from 'next/link';
 
-function imageField(name, pictureSrc) {
+function levelCard(level, page) {
   return (
-    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-      <div className="grid grid-cols-2 gap-4 justify-center items-center">
-        <div className="m-auto">
-          <Image src={pictureSrc} width={90} height={90} alt="/" />
-          <div className="flex flex-col items-center justify-center">
-            <h3>{name}</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function levelNameField(level) {
-  return (
-    <div className="p-16 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-      <div className="grid grid-cols-2 gap-4 justify-center items-center">
-        <div className="m-auto">
-          <div className="flex flex-col items-center justify-center">
-            <h3>{level}</h3>
-          </div>
-        </div>
-      </div>
+    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <a href="#">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          {level}
+        </h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        Here are the biggest enterprise technology acquisitions of 2021 so far,
+        in reverse chronological order.
+      </p>
+      <Link
+        href={'/blockchain/' + page}
+        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Start
+      </Link>
     </div>
   );
 }
@@ -41,29 +35,10 @@ const Blockchain = () => {
         </p>
         <h2 className="py-4">What to learn about?</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {levelNameField('Starter')}
-          {imageField(
-            'Important Blockchains',
-            '/../public/assets/blockchain/blockchain02.png'
-          )}
-          {imageField(
-            'Blockchain Usages',
-            '/../public/assets/blockchain/blockchain03.png'
-          )}
-          {imageField('DeFi', '/../public/assets/blockchain/blockchain04.png')}
-          {imageField(
-            'Blockchain Concepts',
-            '/../public/assets/blockchain/blockchain01.png'
-          )}
-          {imageField(
-            'Important Blockchains',
-            '/../public/assets/blockchain/blockchain02.png'
-          )}
-          {imageField(
-            'Blockchain Usages',
-            '/../public/assets/blockchain/blockchain03.png'
-          )}
-          {imageField('DeFi', '/../public/assets/blockchain/blockchain04.png')}
+          {levelCard('Just started', 'BlockchainJustStarted')}
+          {levelCard('Getting to know more', 'BlockchainMore')}
+          {levelCard('Getting more advanced', 'BlockchainMoreAdvanced')}
+          {levelCard('Advanced', 'BlockchainAdvanced')}
         </div>
       </div>
     </div>
