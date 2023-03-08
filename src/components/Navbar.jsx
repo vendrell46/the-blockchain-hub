@@ -4,50 +4,123 @@ import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
+import { injected } from './wallet/connectors';
+import { useWeb3React } from '@web3-react/core';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const { active, account, library, connector, activate, deactivate } =
+    useWeb3React();
 
   const handleNav = () => {
     setNav(!nav);
   };
 
-  return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] px-3">
-      <div className="flex justify-between items-center w-full px-2 2xl:px-16">
-        <Link href="/#Home">
-          <Image
-            src="/../public/assets/logo.png"
-            alt="/"
-            width={300}
-            height={0}
-          />
-        </Link>
+  async function connect() {
+    try {
+      await activate(injected);
+    } catch (ex) {
+      console.log(ex);
+    }
+  }
 
-        <div>
-          <ul className="hidden md:flex">
-            <Link href="/#Blockchain">
-              <li className="ml-5 text-xs uppercase hover:border-b py-10">
-                Blockchain
+  async function disconnect() {
+    try {
+      deactivate();
+    } catch (ex) {
+      console.log(ex);
+    }
+  }
+
+  return (
+    <div className="fixed w-full h-20 shadow-xl z-[100] px-1">
+      <nav class="bg-white border-gray-200 dark:bg-gray-200">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
+          <Link href="/#Home">
+            <Image
+              src="/../public/assets/logo.png"
+              alt="/"
+              width={330}
+              height={0}
+            />
+          </Link>
+          <div class="flex flex-col items-end justify-center">
+            {!active ? (
+              <button
+                onClick={connect}
+                class="py-1 mt-2 mb-2 text-sm font-bold capitalize text-white rounded-md w-26 bg-blue-700 hover:bg-blue-900 p-4"
+              >
+                Connect Wallet
+              </button>
+            ) : (
+              <button
+                onClick={disconnect}
+                className="py-1 mt-2 mb-2 text-sm font-bold capitalize text-white rounded-md w-26 bg-blue-700 hover:bg-blue-900 p-4"
+              >
+                Disconnect
+              </button>
+            )}
+
+            {active ? (
+              <span class="text-xs">
+                <b>{account}</b>
+              </span>
+            ) : (
+              <span class="text-xs">Not connected</span>
+            )}
+          </div>
+        </div>
+      </nav>
+      <nav class="bg-gray-50 dark:bg-gray-700">
+        <div class="max-w-screen-xl px-4 py-3 mx-auto md:px-6">
+          <div class="flex items-center">
+            <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
+              <li>
+                <Link
+                  href="/#Home"
+                  class="text-gray-900 dark:text-white hover:underline"
+                  aria-current="page"
+                >
+                  Home
+                </Link>
               </li>
-            </Link>
-            <Link href="/#SmartContract">
-              <li className="ml-5 text-xs uppercase hover:border-b py-10">
-                Smart Contract
+              <li>
+                <Link
+                  href="/#Blockchain"
+                  class="text-gray-900 dark:text-white hover:underline"
+                >
+                  Blockchain
+                </Link>
               </li>
-            </Link>
-            <Link href="/">
-              <li className="ml-5 mr-8 text-xs uppercase hover:border-b py-10">
-                Twitter
+              <li>
+                <Link
+                  href="/#SmartContract"
+                  class="text-gray-900 dark:text-white hover:underline"
+                >
+                  Smart Contract
+                </Link>
               </li>
-            </Link>
-          </ul>
-          {/* Hamburger icon */}
-          <div onClick={handleNav} className="md:hidden">
+              <li>
+                <Link
+                  href="/#"
+                  class="text-gray-900 dark:text-white hover:underline"
+                >
+                  Web3 Security
+                </Link>
+              </li>
+            </ul>
+            <div onClick={handleNav} className="md:hidden text-white">
+              <AiOutlineMenu size={25} />
+            </div>
+          </div>
+        </div>
+      </nav>
+      {/* Hamburger icon */}
+      {/* <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Mobile Menu */}
       {/* Overlay */}
