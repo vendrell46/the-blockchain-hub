@@ -33,7 +33,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] px-1">
+    <div className="fixed w-full h-20 shadow-xl z-[100]">
       <nav class="bg-white border-gray-200 dark:bg-gray-200">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
           <Link href="/#Home">
@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <nav class="bg-gray-50 dark:bg-gray-700">
+      <nav class="bg-gray-50 dark:bg-gray-900">
         <div class="max-w-screen-xl px-4 py-3 mx-auto md:px-6">
           <div class="flex items-center">
             <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
