@@ -3,7 +3,7 @@ import React from 'react';
 import { AppWrap } from '../wrapper';
 import Link from 'next/link';
 
-function levelCard(level, page) {
+function contentCard(level, path, page) {
   return (
     <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
@@ -16,7 +16,7 @@ function levelCard(level, page) {
         in reverse chronological order.
       </p>
       <Link
-        href={'/blockchain/just_started/' + page}
+        href={'/blockchain/' + path + '/' + page}
         class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
       >
         Start
@@ -34,10 +34,14 @@ const Blockchain = () => {
         </p>
         <h2 className="py-4">What to learn about?</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {levelCard('Just started', 'BlockchainJustStarted')}
-          {levelCard('Getting to know more', 'BlockchainMore')}
-          {levelCard('Getting more advanced', 'BlockchainMoreAdvanced')}
-          {levelCard('Advanced', 'BlockchainAdvanced')}
+          {contentCard('Just started', 'just_started', 'BlockchainRead')}
+          {contentCard('Getting to know more', 'know_more', 'BlockchainMore')}
+          {contentCard(
+            'Getting more advanced',
+            'more_advanced',
+            'BlockchainMoreAdvanced'
+          )}
+          {contentCard('Advanced', 'advanced', 'BlockchainAdvanced')}
         </div>
       </div>
     </div>

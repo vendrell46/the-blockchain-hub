@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const LevelCard = ({ url, title, description }) => {
   const [checked, setChecked] = useState(false);
@@ -6,18 +7,19 @@ const LevelCard = ({ url, title, description }) => {
   return (
     <div>
       <div>
-        <a
+        <Link
           href={url}
-          class="block max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-blue-400 dark:border-blue-400 dark:hover:bg-blue-500"
+          class="block max-w-sm p-4 bg-white border border-gray-200 rounded-lg 
+                  shadow hover:bg-gray-100 dark:bg-white dark:border-blue-600 dark:hover:bg-blue-100"
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 class="mb-2 text-xl font-bold tracking-tight dark:text-gray-800 ">
             {title}
           </h5>
-          <p class="font-normal text-gray-900 dark:text-gray-900">
-            {description}
-          </p>
-        </a>
-        <div class="ml-3">
+          <p class="font-normal dark:text-gray-900">{description}</p>
+        </Link>
+        <div class="ml-2">
           <label class="inline-flex items-center">
             <input
               type="checkbox"
