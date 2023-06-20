@@ -45,12 +45,12 @@ const Main = () => {
               Go ahead and start navigating through the different topics I write
               about.
             </h3>
-            <a
+            <Link
               href="/#Web3Security"
               className="py-2 mt-4 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
             >
               Start Reading
-            </a>
+            </Link>
           </div>
           <div className="bg-gray-100 p-6 mb-6 text-center">
             <h2 className="pt-4 pb-4">
