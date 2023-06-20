@@ -9,6 +9,7 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
           />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

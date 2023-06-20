@@ -17,6 +17,7 @@ function App({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <style jsx global>{`
         body {
