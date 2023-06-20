@@ -13,7 +13,7 @@ const Main = () => {
               {/* Add your avatar image */}
               <div className="rounded-full overflow-hidden w-70 h-70">
                 <Image
-                  src="/../public/assets/about_me.png"
+                  src="/assets/about_me.png"
                   alt="Avatar"
                   width={200}
                   height={200}

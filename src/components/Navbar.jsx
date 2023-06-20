@@ -59,7 +59,7 @@ const Navbar = () => {
           <div className="flex items-center justify-center flex-grow">
             <Link href="/#Home">
               <Image
-                src="/../public/assets/blockchainer_logo.png"
+                src="/assets/blockchainer_logo.png"
                 alt="/"
                 width={300}
                 height={0}
