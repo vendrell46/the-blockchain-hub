@@ -44,21 +44,24 @@ const Navbar = () => {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
           <div className="flex items-center">
             <Link href="/#Home">
-              <Image
-                src="/../public/assets/course_logo.jpeg"
-                alt="/"
-                width={80}
-                height={0}
-                className="hidden sm:block"
-              />
+              <div className="rounded-full overflow-hidden">
+                <Image
+                  src="/assets/course_logo.jpeg"
+                  alt="/"
+                  width={80}
+                  height={80}
+                  className="hidden sm:block"
+                />
+              </div>
             </Link>
           </div>
+
           <div className="flex items-center justify-center flex-grow">
             <Link href="/#Home">
               <Image
                 src="/../public/assets/blockchainer_logo.png"
                 alt="/"
-                width={250}
+                width={300}
                 height={0}
                 className="w-45 sm:w-auto"
               />
@@ -90,7 +93,7 @@ const Navbar = () => {
       <nav className="bg-gray-50 dark:bg-gray-900">
         <div className="max-w-screen-xl px-4 py-2 mx-auto md:px-6">
           <div className="flex items-center">
-            <ul className="flex flex-row mt-0 mr-6 space-x-6 text-sm font-medium">
+            <ul className="flex flex-row mt-0 mr-6 space-x-6 text-md font-medium">
               <li
                 className="relative"
                 onMouseEnter={handleMouseEnter}
@@ -177,14 +180,14 @@ const Navbar = () => {
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
-                  href="/#Recommendations"
+                  href="/recommendations/RecommendationsPage"
                   className="text-gray-900 dark:text-white hover:underline"
                 >
                   Recommendations
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

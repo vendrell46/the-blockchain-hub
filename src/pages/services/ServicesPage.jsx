@@ -4,9 +4,9 @@ const ServicesPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen border-3d">
       <div className="border-3d rounded-lg p-8 m-4">
-        <h1 className="text-4xl text-center">Services</h1>
+        <h1 className="text-4xl text-center text-white">Services</h1>
 
-        <p className="text-lg text-center mt-8">
+        <p className="text-lg text-center mt-8 text-white">
           Hire me for professional services.
         </p>
       </div>
