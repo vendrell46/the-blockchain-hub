@@ -1,19 +1,25 @@
 import Head from 'next/head';
 import Navbar from 'theblockchainhub/components/Navbar';
 import Main from 'theblockchainhub/components/Main';
-import Blockchain from 'theblockchainhub/components/Blockchain';
+import MyJourney from 'theblockchainhub/components/MyJourney';
 import SmartContract from 'theblockchainhub/components/SmartContract';
+import DeFi from 'theblockchainhub/components/DeFi';
+import Web3Security from 'theblockchainhub/components/Web3Security';
+import Roadmap from 'theblockchainhub/components/Roadmap';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>The Blockchain Hub</title>
+        <title>The Blockchainer Hub</title>
       </Head>
       <Navbar />
       <Main />
-      <Blockchain />
+      <MyJourney />
       <SmartContract />
+      <DeFi />
+      <Web3Security />
+      <Roadmap />
     </div>
   );
 }
