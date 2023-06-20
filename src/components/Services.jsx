@@ -2,7 +2,7 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen mb-24">
       <h1 className="text-4xl text-center pt-40">Services</h1>
 
       <p className="text-lg text-center mt-8">
@@ -47,4 +47,4 @@ const Services = () => {
   );
 };
 
-export default AppWrap(Services, 'Services');
+export default Services;

@@ -20,7 +20,7 @@ function contentCard(title, description, link) {
 
 const DeFi = () => {
   return (
-    <div id="DeFi" className="w-full lg:h-screen p-2">
+    <div id="DeFi" className="w-full lg:h-screen p-2 mb-24">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h2 className="text-xxl tracking-widest uppercase text-[#5651e5]">
           DeFi Protocols

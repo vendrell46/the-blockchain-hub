@@ -1,13 +1,11 @@
 import React from 'react';
-import { BsTwitter, BsMedium } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import Link from 'next/link';
 
+import Link from 'next/link';
 import { AppWrap } from '../wrapper';
 
 const Main = () => {
   return (
-    <div id="Home" className="w-full h-screen ">
+    <div id="Home" className="w-full h-screen mb-24">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center pt-40 pb-20">
         <div>
           <div className="text-center bg-blue-100  p-6 mb-6">
@@ -26,34 +24,30 @@ const Main = () => {
               Start Reading
             </a>
           </div>
-          <div className="bg-violet-200  p-6 mb-6">
-            <h2 className="pt-4 pb-4">
-              Book a<span className="text-violet-900"> Private Audit</span>
+          <div className="bg-violet-100  p-6 mb-6 text-center">
+            <h2 className="pt-4 pb-4 ">
+              Book a<span className="text-violet-900"> private audit</span> or a
+              <span className="text-violet-900"> consultancy session</span>
             </h2>
 
-            <a
-              href="/#MyJourney"
+            <Link
+              href="/services/ServicesPage"
               class="py-1 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800  p-2"
             >
               Contact Me
-            </a>
+            </Link>
           </div>
-          <div className="bg-orange-100  p-6 mb-6">
-            <h2 className="pt-4">
-              Need guidance to{' '}
-              <span className="text-orange-700">become an auditor</span>? I can
-              help you.
+          <div className="bg-orange-100  p-6 mb-6 text-center">
+            <h2 className="pt-4 pb-4">
+              Take advantage of the full potential of the Web3 Community.
+              <span className="text-orange-700"> Check my recommendations</span>
             </h2>
-            <h3 className="py-2 text-gray-800">
-              Go ahead and start navigating through the different topics I write
-              about.
-            </h3>
-            <a
+            <Link
               href="/#MyJourney"
               class="py-1 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800  p-2"
             >
-              Book a guidance session
-            </a>
+              I'm curious
+            </Link>
           </div>
 
           {/* <p className="py-4 text-gray-600 max-w-[70%] m-auto">
