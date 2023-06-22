@@ -7,6 +7,10 @@
   font-weight: bold;
 }
 
+.relative:hover .absolute {
+  opacity: 1;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

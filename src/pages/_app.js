@@ -1,8 +1,8 @@
 import 'theblockchainhub/styles/globals.css';
 import Head from 'next/head';
-import { Web3ReactProvider } from '@web3-react/core';
 import Web3 from 'web3';
 import Navbar from 'theblockchainhub/components/Navbar';
+import Footer from 'theblockchainhub/components/Footer';
 
 function getLibrary(provider) {
   return new Web3(provider);
@@ -27,6 +27,7 @@ function App({ Component, pageProps }) {
       <div className="font-inconsolata">
         <Navbar />
         <Component {...pageProps} />
+        <Footer />
       </div>{' '}
     </>
   );

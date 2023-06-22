@@ -5,7 +5,7 @@ import { AppWrap } from '../wrapper';
 
 const Main = () => {
   return (
-    <div id="Home" className="w-full h-screen mb-24 bg-black ">
+    <div id="Home" className="w-full h-screen mb-60 bg-black ">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center pt-10 pb-20">
         <div className="font-inconsolata">
           <div className="flex flex-col md:flex-row md:space-x-10 mt-40 mb-20">
@@ -37,26 +37,26 @@ const Main = () => {
           </div>
 
           <div className="text-center bg-gray-100 p-6 mb-6">
-            <h2 className="pt-4">
-              <span className="text-gray-800">Read articles</span> related to
-              Web3 Security
-            </h2>
+            <h2 className="pt-4">Read articles related to Web3 Security</h2>
             <h3 className="py-2 text-gray-600 mb-4">
               Go ahead and start navigating through the different topics I write
               about.
             </h3>
             <Link
-              href="/#Web3Security"
+              href="/#Articles"
               className="py-2 mt-4 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
             >
               Start Reading
             </Link>
           </div>
           <div className="bg-gray-100 p-6 mb-6 text-center">
-            <h2 className="pt-4 pb-4">
-              Book a<span className="text-gray-800"> private audit</span> or a
-              <span className="text-gray-800"> consultancy session</span>
+            <h2 className="pt-4">
+              Hire me as a Technical Writer or Private Auditor
             </h2>
+            <h3 className="py-2 text-gray-600 mb-4">
+              I write technical content to help me and others during audit
+              sessions.
+            </h3>
             <Link
               href="/services/ServicesPage"
               className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
@@ -67,14 +67,31 @@ const Main = () => {
           <div className="bg-gray-100 p-6 mb-6 text-center">
             <h2 className="pt-4 pb-4">
               Take advantage of the full potential of the Web3 Community.
-              <span className="text-gray-800"> Check my recommendations</span>
             </h2>
-            <Link
-              href="/#MyJourney"
-              className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
-            >
-              Find out!
-            </Link>
+            <h3 className="py-0 text-gray-600 mb-4">
+              Study their private audit reports. Check how to stay up to date
+              and connected. Find the best auditing tools.
+            </h3>
+            <div className="flex justify-center space-x-20">
+              <Link
+                href="/recommendations/RecommendationsPage"
+                className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
+              >
+                Audit reports
+              </Link>
+              <Link
+                href="/recommendations/RecommendationsPage"
+                className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
+              >
+                Web3 Community
+              </Link>
+              <Link
+                href="/recommendations/RecommendationsPage"
+                className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
+              >
+                Auditing tools
+              </Link>
+            </div>
           </div>
         </div>
       </div>

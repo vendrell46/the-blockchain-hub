@@ -36,6 +36,10 @@ const Navbar = () => {
     };
   }, []);
 
+  const Separator = () => (
+    <div className="h-6 w-px bg-gray-300 dark:bg-gray-700 mx-2"></div>
+  );
+
   async function contactMe() {}
 
   return (
@@ -69,22 +73,49 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col items-end justify-center space-y-2 md:space-y-0 md:flex-row md:items-center">
             <div className="flex flex-col">
-              <a
-                href={'https://twitter.com/TheBlockChainer'}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="py-1 mt-1 mb-1 text-sm sm:text-md font-bold capitalize text-white rounded-md bg-blue-400 p-2"
-              >
-                Follow me on Twitter
-              </a>
-              <a
-                href={'https://medium.com/@bloqarl/membership'}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="py-1 mt-2 mb-2 text-sm sm:text-md font-bold capitalize text-white rounded-md bg-gray-800 p-2"
-              >
-                Subscribe to my Medium
-              </a>
+              <div className="flex items-center">
+                <a
+                  href={'https://twitter.com/TheBlockChainer'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="py-1 mt-1 mb-1 text-sm sm:text-md font-bold capitalize text-white rounded-md bg-blue-400 p-2"
+                >
+                  Follow me
+                </a>
+                <div className="relative ml-4">
+                  <Image
+                    src="/assets/twitter.png"
+                    alt="/"
+                    width={25}
+                    height={25}
+                  />
+                  <span className="absolute left-0 bottom-0 transform translate-x-1/2 -translate-y-full opacity-0 bg-gray-800 text-white text-xs py-0 px-2 rounded-md transition-opacity duration-300 pointer-events-none">
+                    Twitter
+                  </span>
+                </div>
+              </div>
+
+              <div className="flex items-center">
+                <a
+                  href={'https://medium.com/@bloqarl/membership'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="py-1 mt-2 mb-2 text-sm sm:text-md font-bold capitalize text-white rounded-md bg-gray-800 p-2"
+                >
+                  Subscribe
+                </a>
+                <div className="relative ml-4">
+                  <Image
+                    src="/assets/medium.png"
+                    alt="/"
+                    width={25}
+                    height={25}
+                  />
+                  <span className="absolute left-0 bottom-0 transform translate-x-1/2 -translate-y-full opacity-0 bg-gray-800 text-white text-xs py-0 px-2 rounded-md transition-opacity duration-300 pointer-events-none">
+                    Medium
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -102,7 +133,7 @@ const Navbar = () => {
                 ref={dropdownRef}
               >
                 <button className="text-gray-900 dark:text-white hover:underline capitalize shadow-none flex items-center">
-                  <span className="mr-0">My Articles</span>
+                  <span className="mr-0">Articles</span>
                   <svg
                     className="w-5 h-5 ml-1"
                     aria-hidden="true"
@@ -126,7 +157,7 @@ const Navbar = () => {
                   >
                     <li>
                       <Link
-                        href="/#MyJourney"
+                        href={'/myJourney/MyJourneyPage'}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         onClick={() => setIsDropdownOpen(false)}
                       >
@@ -135,7 +166,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        href="/#SmartContract"
+                        href={'/smartContract/SmartContractPage'}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         onClick={() => setIsDropdownOpen(false)}
                       >
@@ -144,7 +175,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        href="/#DeFi"
+                        href={'/defi/DeFiPage'}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         onClick={() => setIsDropdownOpen(false)}
                       >
@@ -153,7 +184,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        href="/#Web3Security"
+                        href={'/web3security/Web3SecurityPage'}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         onClick={() => setIsDropdownOpen(false)}
                       >
@@ -162,7 +193,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        href="/#Roadmap"
+                        href={'/roadmap/RoadmapPage'}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         onClick={() => setIsDropdownOpen(false)}
                       >
@@ -172,6 +203,7 @@ const Navbar = () => {
                   </ul>
                 )}
               </li>
+              <Separator />
               <li>
                 <Link
                   href="/services/ServicesPage"
@@ -180,14 +212,33 @@ const Navbar = () => {
                   Services
                 </Link>
               </li>
-              {/* <li>
+              <Separator />
+              <li>
+                <Link
+                  href="/privateAudits/PrivateAuditsPage"
+                  className="text-gray-900 dark:text-white hover:underline"
+                >
+                  Private audit reports
+                </Link>
+              </li>
+              <Separator />
+              <li>
                 <Link
                   href="/recommendations/RecommendationsPage"
                   className="text-gray-900 dark:text-white hover:underline"
                 >
-                  Recommendations
+                  Audit tools
                 </Link>
-              </li> */}
+              </li>
+              <Separator />
+              <li>
+                <Link
+                  href="/recommendations/RecommendationsPage"
+                  className="text-gray-900 dark:text-white hover:underline"
+                >
+                  Web3Sec Community
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

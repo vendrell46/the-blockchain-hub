@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Recommendation = ({ label, href }) => {
+const Audit = ({ label, href }) => {
   return (
     <li>
       <a
@@ -15,111 +15,107 @@ const Recommendation = ({ label, href }) => {
   );
 };
 
-const RecommendationsPage = () => {
+const PrivateAuditsPage = () => {
   return (
-    <div id="Recommendations" className="w-full min-h-screen bg-black">
+    <div id="PrivateAuditsPage" className="w-full min-h-screen bg-black">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center pt-10 pb-20">
         <div className="font-inconsolata">
+          <h2 className="text-xxl tracking-widest uppercase text-blue-800 text-center font-inconsolata-bold mt-40">
+            <b>Private Audit Reports</b>
+          </h2>
           <div className="flex flex-wrap mt-18 justify-left">
-            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border mt-40">
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border mt-12">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
-                Discord Communities
+                My Private Audits
               </h2>
               <hr className="border-gray-500 my-4" />
               <div>
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                  <Recommendation
-                    label="Guardian Audits"
-                    href="https://discord.gg/vBh3M4tEpU"
-                  />
-                  <Recommendation label="Secureum" href="https://example.com" />
+                  <Audit label="Not Public Yet" />
                 </ul>
               </div>
             </div>
 
             <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
-                Twitter Accounts
+                Guardian Audits
               </h2>
               <hr className="border-gray-500 my-4" />
               <div className="grid grid-cols-4 gap-8">
                 <div>
                   <p className="text-white font-bold mt-4">Auditors:</p>
                   <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                    <Recommendation
+                    <Audit
                       label="@trust__90"
                       href="https://twitter.com/trust__90"
                     />
-                    <Recommendation
+                    <Audit
                       label="@gogotheauditor"
                       href="https://twitter.com/gogotheauditor"
                     />
-                    <Recommendation
+                    <Audit
                       label="@pashovkrum"
                       href="https://twitter.com/pashovkrum"
                     />
-                    <Recommendation
+                    <Audit
                       label="@zachobront"
                       href="https://twitter.com/zachobront"
                     />
-                    <Recommendation
+                    <Audit
                       label="@0xWeisss"
                       href="https://twitter.com/0xWeisss"
                     />
-                    <Recommendation
+                    <Audit
                       label="@gjaldon"
                       href="https://twitter.com/gjaldon"
                     />
-                    <Recommendation
+                    <Audit
                       label="@bytes032"
                       href="https://twitter.com/bytes032"
                     />
-                    <Recommendation
+                    <Audit
                       label="@0xWeisss"
                       href="https://twitter.com/0xWeisss"
                     />
-                    <Recommendation
+                    <Audit
                       label="@KrisApost1"
                       href="https://twitter.com/KrisApost1"
                     />
-                    <Recommendation
+                    <Audit
                       label="@NevvDevv"
                       href="https://twitter.com/NevvDevv"
                     />
-                    <Recommendation
-                      label="@0xkato"
-                      href="https://twitter.com/0xkato"
-                    />
+                    <Audit label="@0xkato" href="https://twitter.com/0xkato" />
                   </ul>
                 </div>
                 <div>
                   <p className="text-white font-bold mt-4">Content Creators:</p>
                   <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                    <Recommendation
+                    <Audit
                       label="@PatrickAlphaC"
                       href="https://twitter.com/PatrickAlphaC"
                     />
-                    <Recommendation
+                    <Audit
                       label="@ProgrammerSmart"
                       href="https://twitter.com/ProgrammerSmart"
                     />
-                    <Recommendation
+                    <Audit
                       label="@RealJohnnyTime"
                       href="https://twitter.com/RealJohnnyTime"
                     />
-                    <Recommendation
+                    <Audit
                       label="@0xOwenThurm"
                       href="https://twitter.com/0xOwenThurm"
                     />
-                    <Recommendation
+                    <Audit
                       label="@officer_cia"
                       href="https://twitter.com/officer_cia"
                     />
-                    <Recommendation
+                    <Audit
                       label="@_iphelix"
                       href="https://twitter.com/_iphelix"
                     />
-                    <Recommendation
+                    <Audit
                       label="@DevDacian"
                       href="https://twitter.com/DevDacian"
                     />
@@ -128,63 +124,60 @@ const RecommendationsPage = () => {
                 <div>
                   <p className="text-white font-bold mt-4">Web3 Security:</p>
                   <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                    <Recommendation
+                    <Audit
                       label="@immunefi"
                       href="https://twitter.com/immunefi"
                     />
-                    <Recommendation
+                    <Audit
                       label="@code4rena"
                       href="https://twitter.com/code4rena"
                     />
-                    <Recommendation
+                    <Audit
                       label="@sherlockdefi"
                       href="https://twitter.com/sherlockdefi"
                     />
-                    <Recommendation
+                    <Audit
                       label="@hatsfinance"
                       href="https://twitter.com/hatsfinance"
                     />
-                    <Recommendation
+                    <Audit
                       label="@SoloditOfficial"
                       href="https://twitter.com/SoloditOfficial"
                     />
-                    <Recommendation
+                    <Audit
                       label="@TheSecureum"
                       href="https://twitter.com/TheSecureum"
                     />
-                    <Recommendation
+                    <Audit
                       label="@SpearbitDAO"
                       href="https://twitter.com/SpearbitDAO"
                     />
-                    <Recommendation
+                    <Audit
                       label="@cantinaxyz"
                       href="https://twitter.com/cantinaxyz"
                     />
-                    <Recommendation
+                    <Audit
                       label="@CyfrinAudits"
                       href="https://twitter.com/CyfrinAudits"
                     />
-                    <Recommendation
+                    <Audit
                       label="@BowTiedPickle"
                       href="https://twitter.com/BowTiedPickle"
                     />
-                    <Recommendation
+                    <Audit
                       label="@LearnWeb3DAO"
                       href="https://twitter.com/LearnWeb3DAO"
                     />
-                    <Recommendation
-                      label="@RektHQ"
-                      href="https://twitter.com/RektHQ"
-                    />
-                    <Recommendation
+                    <Audit label="@RektHQ" href="https://twitter.com/RektHQ" />
+                    <Audit
                       label="@andyfeili"
                       href="https://twitter.com/andyfeili"
                     />
-                    <Recommendation
+                    <Audit
                       label="@BlockSecTeam"
                       href="https://twitter.com/BlockSecTeam"
                     />
-                    <Recommendation
+                    <Audit
                       label="@gakonst"
                       href="https://twitter.com/gakonst"
                     />
@@ -193,31 +186,31 @@ const RecommendationsPage = () => {
                 <div>
                   <p className="text-white font-bold mt-4">General:</p>
                   <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                    <Recommendation
+                    <Audit
                       label="@NFT_GOD"
                       href="https://twitter.com/NFT_GOD"
                     />
-                    <Recommendation
+                    <Audit
                       label="@FrancescoCiull4"
                       href="https://twitter.com/FrancescoCiull4"
                     />
-                    <Recommendation
+                    <Audit
                       label="@TheAnkurTyagi"
                       href="https://twitter.com/TheAnkurTyagi"
                     />
-                    <Recommendation
+                    <Audit
                       label="@PaulRBerg"
                       href="https://twitter.com/PaulRBerg"
                     />
-                    <Recommendation
+                    <Audit
                       label="@Definews_Info"
                       href="https://twitter.com/Definews_Info"
                     />
-                    <Recommendation
+                    <Audit
                       label="@VittoStack"
                       href="https://twitter.com/VittoStack"
                     />
-                    <Recommendation
+                    <Audit
                       label="@hashoshi4"
                       href="https://twitter.com/hashoshi4"
                     />
@@ -228,98 +221,47 @@ const RecommendationsPage = () => {
 
             <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
-                Newsletters
+                Pashov's Private Audits
               </h2>
               <hr className="border-gray-500 my-4" />
               <div>
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                  <Recommendation
+                  <Audit
                     label="Blockchain Threat Intelligence"
                     href="https://example.com"
                   />
-                  <Recommendation
-                    label="web3sec.news"
-                    href="https://example.com"
-                  />
-                  <Recommendation
-                    label="bytes032's alpha"
-                    href="https://example.com"
-                  />
-                  <Recommendation
+                  <Audit label="web3sec.news" href="https://example.com" />
+                  <Audit label="bytes032's alpha" href="https://example.com" />
+                  <Audit
                     label="DeFi Protocol by code"
                     href="https://example.com"
                   />
-                  <Recommendation label="Decrypt" href="https://example.com" />
+                  <Audit label="Decrypt" href="https://example.com" />
                 </ul>
               </div>
             </div>
-
             <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
-                Auditors Marketplace
+                Cantina's Private Audits
               </h2>
               <hr className="border-gray-500 my-4" />
               <div>
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                  <Recommendation label="G360DAO" href="https://example.com" />
-                  <Recommendation label="Cantina" href="https://example.com" />
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
-              <h2 className="text-xl font-semibold mb-2 text-left text-white">
-                Code Challenges
-              </h2>
-              <hr className="border-gray-500 my-4" />
-              <div>
-                <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                  <Recommendation
-                    label="Ethernaut"
-                    href="https://example.com"
-                  />
-                  <Recommendation
-                    label="Cryptozombies"
-                    href="https://example.com"
-                  />
-                  <Recommendation
+                  <Audit label="Ethernaut" href="https://example.com" />
+                  <Audit label="Cryptozombies" href="https://example.com" />
+                  <Audit
                     label="Damn Vulnerable DeFi"
                     href="https://example.com"
                   />
-                  <Recommendation
+                  <Audit
                     label="Ghosts: Secureum races"
                     href="https://example.com"
                   />
-                  <Recommendation
-                    label="EVM Opcodes"
-                    href="https://example.com"
-                  />
-                  <Recommendation label="VyperFun" href="https://example.com" />
-                  <Recommendation label="Wriggly" href="https://example.com" />
-                  <Recommendation
-                    label="CryptoHack"
-                    href="https://example.com"
-                  />
-                  <Recommendation
-                    label="Cairo Playground"
-                    href="https://example.com"
-                  />
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
-              <h2 className="text-xl font-semibold mb-2 text-left text-white">
-                Podcasts
-              </h2>
-              <hr className="border-gray-500 my-4" />
-              <div>
-                <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                  <Recommendation label="Bankless" href="https://example.com" />
-                  <Recommendation
-                    label="Devs Do Something"
-                    href="https://example.com"
-                  />
+                  <Audit label="EVM Opcodes" href="https://example.com" />
+                  <Audit label="VyperFun" href="https://example.com" />
+                  <Audit label="Wriggly" href="https://example.com" />
+                  <Audit label="CryptoHack" href="https://example.com" />
+                  <Audit label="Cairo Playground" href="https://example.com" />
                 </ul>
               </div>
             </div>
@@ -330,4 +272,4 @@ const RecommendationsPage = () => {
   );
 };
 
-export default RecommendationsPage;
+export default PrivateAuditsPage;

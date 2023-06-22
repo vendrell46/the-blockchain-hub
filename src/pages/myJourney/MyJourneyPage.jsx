@@ -18,6 +18,16 @@ function contentCard(title, description, link) {
 const MyJourneyPage = () => {
   return (
     <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full pt-40 pb-20">
+      <h2 className="text-xxl tracking-widest uppercase text-blue-800 text-center">
+        My Journey
+      </h2>
+      <p className="mt-4 mb-0 text-lg text-white text-center">
+        These articles are written by me.
+      </p>{' '}
+      <p className="mb-6 text-lg text-white text-center">
+        These are the articles I write along my journey in Blockchain world and
+        Web3 Security more specifically.
+      </p>{' '}
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         {contentCard(
           'How do you even start learning about Blockchain?',
