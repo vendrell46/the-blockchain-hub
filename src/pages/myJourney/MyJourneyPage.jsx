@@ -18,7 +18,7 @@ function contentCard(title, description, link) {
 const MyJourneyPage = () => {
   return (
     <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full pt-40 pb-20">
-      <h2 className="text-xxl tracking-widest uppercase text-blue-800 text-center">
+      <h2 className="text-xxl tracking-widest uppercase text-[#00FFFF] text-center">
         My Journey
       </h2>
       <p className="mt-4 mb-0 text-lg text-white text-center">

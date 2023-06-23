@@ -3,8 +3,8 @@ import React from 'react';
 const ServicesPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen border-3d mb-40">
-      <div className="border-3d rounded-lg p-8 m-4 mt-40">
-        <h1 className="text-4xl text-center text-blue-800">Services</h1>
+      <div className="border-3d rounded-lg p-2 m-4 mt-10">
+        <h1 className="text-4xl text-center text-[#00FFFF] mt-40">Services</h1>
 
         <p className="text-lg text-center mt-8 text-white">
           Hire me for professional services.
@@ -12,7 +12,7 @@ const ServicesPage = () => {
       </div>
 
       <div className="flex flex-wrap mt-18 justify-center">
-        <div className="w-full md:w-2/3 bg-gray-800 rounded-lg p-14 m-4 hover:bg-blue-900 shadow-3d">
+        <div className="w-full md:w-2/3 bg-gray-800 rounded-lg p-14 m-4 hover:bg-gray-600 shadow-3d">
           <h2 className="text-xl font-semibold mb-2 text-center text-white">
             Blockchain Technical Content Writer
           </h2>
@@ -29,7 +29,7 @@ const ServicesPage = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-2/3 bg-gray-800 rounded-lg p-14 m-4 hover:bg-blue-900 shadow-3d">
+        <div className="w-full md:w-2/3 bg-gray-800 rounded-lg p-14 m-4 hover:bg-gray-600 shadow-3d">
           <h2 className="text-xl font-semibold mb-2 text-center text-white">
             Book a Private Audit
           </h2>

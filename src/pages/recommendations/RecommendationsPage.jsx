@@ -17,11 +17,14 @@ const Recommendation = ({ label, href }) => {
 
 const RecommendationsPage = () => {
   return (
-    <div id="Recommendations" className="w-full min-h-screen bg-black">
+    <div id="Recommendations" className="w-full min-h-screen bg-black mb-40">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center pt-10 pb-20">
         <div className="font-inconsolata">
           <div className="flex flex-wrap mt-18 justify-left">
-            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border mt-40">
+            <div
+              id="Discord"
+              className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border mt-40"
+            >
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
                 Discord Communities
               </h2>
@@ -34,6 +37,7 @@ const RecommendationsPage = () => {
                   />
                   <Recommendation label="Secureum" href="https://example.com" />
                 </ul>
+                <div id="Twitter"></div>
               </div>
             </div>
 
@@ -42,7 +46,8 @@ const RecommendationsPage = () => {
                 Twitter Accounts
               </h2>
               <hr className="border-gray-500 my-4" />
-              <div className="grid grid-cols-4 gap-8">
+
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                   <p className="text-white font-bold mt-4">Auditors:</p>
                   <ul className="list-disc ml-6 mt-4 font-normal text-white">
@@ -92,6 +97,7 @@ const RecommendationsPage = () => {
                     />
                   </ul>
                 </div>
+
                 <div>
                   <p className="text-white font-bold mt-4">Content Creators:</p>
                   <ul className="list-disc ml-6 mt-4 font-normal text-white">
@@ -125,6 +131,7 @@ const RecommendationsPage = () => {
                     />
                   </ul>
                 </div>
+
                 <div>
                   <p className="text-white font-bold mt-4">Web3 Security:</p>
                   <ul className="list-disc ml-6 mt-4 font-normal text-white">
@@ -190,6 +197,7 @@ const RecommendationsPage = () => {
                     />
                   </ul>
                 </div>
+
                 <div>
                   <p className="text-white font-bold mt-4">General:</p>
                   <ul className="list-disc ml-6 mt-4 font-normal text-white">
@@ -222,6 +230,7 @@ const RecommendationsPage = () => {
                       href="https://twitter.com/hashoshi4"
                     />
                   </ul>
+                  <div id="Newsletters"></div>
                 </div>
               </div>
             </div>
@@ -235,22 +244,26 @@ const RecommendationsPage = () => {
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
                   <Recommendation
                     label="Blockchain Threat Intelligence"
-                    href="https://example.com"
+                    href="https://newsletter.blockthreat.io/"
                   />
                   <Recommendation
                     label="web3sec.news"
-                    href="https://example.com"
+                    href="https://web3secnews.substack.com/"
                   />
                   <Recommendation
                     label="bytes032's alpha"
-                    href="https://example.com"
+                    href="https://blog.bytes032.xyz/"
                   />
                   <Recommendation
                     label="DeFi Protocol by code"
-                    href="https://example.com"
+                    href="https://defiprotocolbycode.substack.com/"
                   />
-                  <Recommendation label="Decrypt" href="https://example.com" />
+                  <Recommendation
+                    label="Decrypt"
+                    href="https://decrypt.co/newsletters"
+                  />
                 </ul>
+                <div id="Marketplace"></div>
               </div>
             </div>
 
@@ -261,9 +274,13 @@ const RecommendationsPage = () => {
               <hr className="border-gray-500 my-4" />
               <div>
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                  <Recommendation label="G360DAO" href="https://example.com" />
-                  <Recommendation label="Cantina" href="https://example.com" />
+                  <Recommendation
+                    label="Lightnet Marketplace by G360DAO"
+                    href="https://lightnet.g360dao.io"
+                  />
+                  <Recommendation label="Cantina" href="https://cantina.xyz/" />
                 </ul>
+                <div id="CodeChallenges"></div>
               </div>
             </div>
 
@@ -276,35 +293,38 @@ const RecommendationsPage = () => {
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
                   <Recommendation
                     label="Ethernaut"
-                    href="https://example.com"
+                    href="https://ethernaut.openzeppelin.com/"
                   />
                   <Recommendation
                     label="Cryptozombies"
-                    href="https://example.com"
+                    href="https://cryptozombies.io/"
                   />
                   <Recommendation
                     label="Damn Vulnerable DeFi"
-                    href="https://example.com"
+                    href="https://www.damnvulnerabledefi.xyz/"
                   />
                   <Recommendation
                     label="Ghosts: Secureum races"
-                    href="https://example.com"
+                    href="https://www.ghostsofepochspast.xyz/dashboard"
                   />
                   <Recommendation
-                    label="EVM Opcodes"
-                    href="https://example.com"
+                    label="EVM Opcodes Playground"
+                    href="https://www.evm.codes/playground?fork=shanghai"
                   />
-                  <Recommendation label="VyperFun" href="https://example.com" />
-                  <Recommendation label="Wriggly" href="https://example.com" />
+                  <Recommendation
+                    label="Wriggly"
+                    href="https://www.wriggly.io/"
+                  />
                   <Recommendation
                     label="CryptoHack"
-                    href="https://example.com"
+                    href="https://cryptohack.org/"
                   />
                   <Recommendation
                     label="Cairo Playground"
-                    href="https://example.com"
+                    href="https://www.cairo-lang.org/playground/"
                   />
                 </ul>
+                <div id="Podcasts"></div>
               </div>
             </div>
 
@@ -315,10 +335,13 @@ const RecommendationsPage = () => {
               <hr className="border-gray-500 my-4" />
               <div>
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
-                  <Recommendation label="Bankless" href="https://example.com" />
+                  <Recommendation
+                    label="Bankless"
+                    href="https://www.bankless.com/listen"
+                  />
                   <Recommendation
                     label="Devs Do Something"
-                    href="https://example.com"
+                    href="https://www.devsdosomething.fm/"
                   />
                 </ul>
               </div>

@@ -19,7 +19,7 @@ const DeFiPage = () => {
   return (
     <div className="max-w-[1240px] mx-auto pt-20 pb-20">
       <section className="mb-14 mt-40">
-        <h2 className="text-xxl tracking-widest uppercase text-blue-800 text-center">
+        <h2 className="text-xxl tracking-widest uppercase text-[#00FFFF] text-center">
           DeFi Protocols
         </h2>
         <p className="mt-4 mb-0 text-lg text-white text-center">

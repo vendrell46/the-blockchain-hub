@@ -4,28 +4,51 @@ import Link from 'next/link';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const dropdownRef = useRef(null);
+  const [isArticlesDropdownOpen, setIsArticlesDropdownOpen] = useState(false);
+  const [isAuditingDropdownOpen, setIsAuditingDropdownOpen] = useState(false);
+  const articlesDropdownRef = useRef(null);
+  const auditingDropdownRef = useRef(null);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
-  const handleDropdownToggle = () => {
-    setIsDropdownOpen(!isDropdownOpen);
+  const handleArticlesDropdownToggle = () => {
+    setIsArticlesDropdownOpen(!isArticlesDropdownOpen);
   };
 
-  const handleMouseEnter = () => {
-    setIsDropdownOpen(true);
+  const handleAuditingDropdownToggle = () => {
+    setIsAuditingDropdownOpen(!isAuditingDropdownOpen);
   };
 
-  const handleMouseLeave = () => {
-    setIsDropdownOpen(false);
+  const handleArticlesMouseEnter = () => {
+    setIsArticlesDropdownOpen(true);
+  };
+
+  const handleArticlesMouseLeave = () => {
+    setIsArticlesDropdownOpen(false);
+  };
+
+  const handleAuditingMouseEnter = () => {
+    setIsAuditingDropdownOpen(true);
+  };
+
+  const handleAuditingMouseLeave = () => {
+    setIsAuditingDropdownOpen(false);
   };
 
   const handleClickOutside = (event) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-      setIsDropdownOpen(false);
+    if (
+      articlesDropdownRef.current &&
+      !articlesDropdownRef.current.contains(event.target)
+    ) {
+      setIsArticlesDropdownOpen(false);
+    }
+    if (
+      auditingDropdownRef.current &&
+      !auditingDropdownRef.current.contains(event.target)
+    ) {
+      setIsAuditingDropdownOpen(false);
     }
   };
 
@@ -127,10 +150,10 @@ const Navbar = () => {
             <ul className="flex flex-row mt-0 mr-6 space-x-6 text-md font-medium">
               <li
                 className="relative"
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                onClick={handleDropdownToggle}
-                ref={dropdownRef}
+                onMouseEnter={handleArticlesMouseEnter}
+                onMouseLeave={handleArticlesMouseLeave}
+                onClick={handleArticlesDropdownToggle}
+                ref={articlesDropdownRef}
               >
                 <button className="text-gray-900 dark:text-white hover:underline capitalize shadow-none flex items-center">
                   <span className="mr-0">Articles</span>
@@ -148,18 +171,18 @@ const Navbar = () => {
                     ></path>
                   </svg>
                 </button>
-                {isDropdownOpen && (
+                {isArticlesDropdownOpen && (
                   <ul
                     className="absolute left-0 w-40 py-2 mt-0 space-y-2 bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-700"
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                    ref={dropdownRef}
+                    onMouseEnter={handleArticlesMouseEnter}
+                    onMouseLeave={handleArticlesMouseLeave}
+                    ref={articlesDropdownRef}
                   >
                     <li>
                       <Link
                         href={'/myJourney/MyJourneyPage'}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        onClick={() => setIsDropdownOpen(false)}
+                        onClick={() => setIsArticlesDropdownOpen(false)}
                       >
                         My Journey
                       </Link>
@@ -168,7 +191,7 @@ const Navbar = () => {
                       <Link
                         href={'/smartContract/SmartContractPage'}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        onClick={() => setIsDropdownOpen(false)}
+                        onClick={() => setIsArticlesDropdownOpen(false)}
                       >
                         Smart Contract
                       </Link>
@@ -177,7 +200,7 @@ const Navbar = () => {
                       <Link
                         href={'/defi/DeFiPage'}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        onClick={() => setIsDropdownOpen(false)}
+                        onClick={() => setIsArticlesDropdownOpen(false)}
                       >
                         DeFi Protocols
                       </Link>
@@ -186,7 +209,7 @@ const Navbar = () => {
                       <Link
                         href={'/web3security/Web3SecurityPage'}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        onClick={() => setIsDropdownOpen(false)}
+                        onClick={() => setIsArticlesDropdownOpen(false)}
                       >
                         Web3 Security
                       </Link>
@@ -195,7 +218,7 @@ const Navbar = () => {
                       <Link
                         href={'/roadmap/RoadmapPage'}
                         className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        onClick={() => setIsDropdownOpen(false)}
+                        onClick={() => setIsArticlesDropdownOpen(false)}
                       >
                         Roadmap
                       </Link>
@@ -213,22 +236,56 @@ const Navbar = () => {
                 </Link>
               </li>
               <Separator />
-              <li>
-                <Link
-                  href="/privateAudits/PrivateAuditsPage"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  Private audit reports
-                </Link>
-              </li>
-              <Separator />
-              <li>
-                <Link
-                  href="/recommendations/RecommendationsPage"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  Audit tools
-                </Link>
+              <li
+                className="relative"
+                onMouseEnter={handleAuditingMouseEnter}
+                onMouseLeave={handleAuditingMouseLeave}
+                onClick={handleAuditingDropdownToggle}
+                ref={auditingDropdownRef}
+              >
+                <button className="text-gray-900 dark:text-white hover:underline capitalize shadow-none flex items-center">
+                  <span className="mr-0">Auditing</span>
+                  <svg
+                    className="w-5 h-5 ml-1"
+                    aria-hidden="true"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+                {isAuditingDropdownOpen && (
+                  <ul
+                    className="absolute left-0 w-40 py-2 mt-0 space-y-2 bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-700"
+                    onMouseEnter={handleAuditingMouseEnter}
+                    onMouseLeave={handleAuditingMouseLeave}
+                    ref={auditingDropdownRef}
+                  >
+                    <li>
+                      <Link
+                        href={'/privateAudits/PrivateAuditsPage'}
+                        className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                        onClick={() => setIsAuditingDropdownOpen(false)}
+                      >
+                        Private audit reports
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href={'/auditTools/AuditTools'}
+                        className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                        onClick={() => setIsAuditingDropdownOpen(false)}
+                      >
+                        Audit tools
+                      </Link>
+                    </li>
+                  </ul>
+                )}
               </li>
               <Separator />
               <li>

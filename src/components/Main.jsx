@@ -5,7 +5,7 @@ import { AppWrap } from '../wrapper';
 
 const Main = () => {
   return (
-    <div id="Home" className="w-full h-screen mb-60 bg-black ">
+    <div id="Home" className="w-full h-screen mb-60 bg-black">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center pt-10 pb-20">
         <div className="font-inconsolata">
           <div className="flex flex-col md:flex-row md:space-x-10 mt-40 mb-20">
@@ -40,7 +40,7 @@ const Main = () => {
             <h2 className="pt-4">Read articles related to Web3 Security</h2>
             <h3 className="py-2 text-gray-600 mb-4">
               Go ahead and start navigating through the different topics I write
-              about.
+              about and other resources.
             </h3>
             <Link
               href="/#Articles"
@@ -74,7 +74,7 @@ const Main = () => {
             </h3>
             <div className="flex justify-center space-x-20">
               <Link
-                href="/recommendations/RecommendationsPage"
+                href="/privateAudits/PrivateAuditsPage"
                 className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
               >
                 Audit reports
@@ -86,7 +86,7 @@ const Main = () => {
                 Web3 Community
               </Link>
               <Link
-                href="/recommendations/RecommendationsPage"
+                href="/auditTools/AuditTools"
                 className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
               >
                 Auditing tools

@@ -1,50 +1,51 @@
 import React from 'react';
 
+import Link from 'next/link';
+import { AppWrap } from '../wrapper';
+
 const Services = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen mb-24">
-      <h1 className="text-4xl text-center pt-40">Services</h1>
+    <div
+      id="Services"
+      className="flex flex-col items-center justify-center min-h-screen mb-24"
+    >
+      <div className="">
+        <h1 className="text-4xl text-center p-4 text-[#00FFFF] ">Services</h1>
+      </div>
 
-      <p className="text-lg text-center mt-8">
+      <p className="text-lg text-center mt-8 text-white">
         Hire me for professional services to boost your business.
       </p>
 
       <div className="flex flex-wrap mt-16 justify-center">
-        <div className="w-full md:w-1/3 bg-gray-300 rounded-lg p-4 m-4 hover:bg-gray-400">
-          <h2 className="text-xl font-semibold mb-2">Service 1</h2>
-          <p className="text-gray-700">
+        <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-4 m-4 ">
+          <h2 className="text-xl font-semibold mb-2 text-white">
+            Blockchain Technical Content Writer
+          </h2>
+          <p className="text-white mt-10">
             This is the description of Service 1. Lorem ipsum dolor sit amet,
             consectetur adipiscing elit.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded mt-4">
-            Learn More
-          </button>
         </div>
 
-        <div className="w-full md:w-1/3 bg-gray-300 rounded-lg p-4 m-4 hover:bg-gray-400">
-          <h2 className="text-xl font-semibold mb-2">Service 2</h2>
-          <p className="text-gray-700">
+        <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-4 m-4 ">
+          <h2 className="text-xl font-semibold mb-2 text-white">
+            Book a Private Audit
+          </h2>
+          <p className="text-white mt-10">
             This is the description of Service 2. Lorem ipsum dolor sit amet,
             consectetur adipiscing elit.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded mt-4">
-            Learn More
-          </button>
-        </div>
-
-        <div className="w-full md:w-1/3 bg-gray-300 rounded-lg p-4 m-4 hover:bg-gray-400">
-          <h2 className="text-xl font-semibold mb-2">Service 3</h2>
-          <p className="text-gray-700">
-            This is the description of Service 3. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
-          </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded mt-4">
-            Learn More
-          </button>
         </div>
       </div>
+      <Link
+        href={'/services/ServicesPage'}
+        class=" mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black  rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
+      >
+        Go to Services
+      </Link>
     </div>
   );
 };
 
-export default Services;
+export default AppWrap(Services, 'Services');
