@@ -19,7 +19,7 @@ const Web3SecurityPage = () => {
   return (
     <div className="max-w-[1240px] mx-auto pt-20 pb-20">
       <section className="mb-14 mt-40">
-        <h2 className="text-xxl tracking-widest uppercase text-blue-800 text-center">
+        <h2 className="text-xxl tracking-widest uppercase text-[#00FFFF] text-center">
           Web3 Security
         </h2>
         <p className="mt-4 mb-0 text-lg text-white text-center">
@@ -77,24 +77,109 @@ const Web3SecurityPage = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {contentCard(
-            'Title 1',
-            'One line description 1',
-            'https://example.com/link1'
+            'Lending/Borrowing DeFi Attacks',
+            '',
+            'https://dacian.hashnode.dev/lending-borrowing-defi-attacks'
           )}
           {contentCard(
-            'Title 2',
-            'One line description 2',
-            'https://example.com/link2'
+            'DeFi Slippage Attacks',
+            '',
+            'https://dacian.hashnode.dev/defi-slippage-attacks'
           )}
           {contentCard(
-            'Title 3',
-            'One line description 3',
-            'https://example.com/link3'
+            'Message traps in the Arbitrum bridge',
+            '',
+            'https://www.notonlyowner.com/research/message-traps-in-the-arbitrum-bridge'
           )}
           {contentCard(
-            'Title 4',
-            'One line description 4',
-            'https://example.com/link4'
+            'MEV Resources',
+            '',
+            'https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221'
+          )}
+          {contentCard(
+            'ECDSA signature vulnerabilities',
+            '',
+            'https://github.com/0xbok/ecdsa-vuln-poc'
+          )}
+          {contentCard(
+            'Multichain Auditor',
+            '',
+            'https://github.com/0xJuancito/multichain-auditor'
+          )}
+          {contentCard(
+            'Weird ERC20 Tokens',
+            '',
+            'https://github.com/d-xo/weird-erc20#revert-on-zero-value-transfers'
+          )}
+          {contentCard(
+            'Audit Findings 201',
+            '',
+            'https://secureum.substack.com/p/audit-findings-201'
+          )}
+          {contentCard(
+            'ZK Reading List',
+            '',
+            'https://plum-lightning-36c.notion.site/ZK-Reading-List-2e85993b316b4c7c831bcdc866005e1b'
+          )}
+          {contentCard(
+            'Smart contract attack vectors',
+            '',
+            'https://github.com/harendra-shakya/smart-contract-attack-vectors'
+          )}
+          {contentCard(
+            'Quillhash DeFi Attack Vectors',
+            '',
+            'https://github.com/Quillhash/DeFi-Attack-Vectors'
+          )}
+          {contentCard(
+            'Smart Contract Weakness Classification',
+            '',
+            'https://swcregistry.io/'
+          )}
+          {contentCard(
+            'Solidity Security blog',
+            '',
+            'https://github.com/sigp/solidity-security-blog'
+          )}
+          {contentCard(
+            'Ethereum Smart Contract Best Practices',
+            '',
+            'https://consensys.github.io/smart-contract-best-practices/attacks/'
+          )}
+          {contentCard(
+            'Bug Fix review Immunefi',
+            '',
+            'https://github.com/immunefi-team/Web3-Security-Library/tree/main/BugFixReviews#moonbeam-astar-and-acala-library-truncation-bugfix-review-$1m-payout'
+          )}
+          {contentCard(
+            'Ethereum Smart Contract Auditor`s 2022 Rewind',
+            '',
+            'https://ventral.digital/posts/2022/12/15/ethereum-smart-contract-auditors-2022-rewind'
+          )}
+          {contentCard(
+            'Code4rena report categorized',
+            '',
+            'https://tom-sol.notion.site/Code4rena-report-categorized-dcce565a3ead49fba36ff0b912e1910a'
+          )}
+          {contentCard(
+            'Smart Contracts audit checklist',
+            '',
+            'https://github.com/tamjid0x01/SmartContracts-audit-checklist'
+          )}
+          {contentCard(
+            'Learn EVM Attacks',
+            '',
+            'https://github.com/coinspect/learn-evm-attacks/tree/master'
+          )}
+          {contentCard(
+            'DeFi Hacks Reproduce - Foundry',
+            '',
+            'https://github.com/SunWeb3Sec/DeFiHackLabs'
+          )}
+          {contentCard(
+            'NFT attacks',
+            '',
+            'https://0xvolodya.hashnode.dev/nft-attacks'
           )}
         </div>
       </section>

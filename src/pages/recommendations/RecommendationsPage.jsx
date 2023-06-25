@@ -35,7 +35,7 @@ const RecommendationsPage = () => {
                     label="Guardian Audits"
                     href="https://discord.gg/vBh3M4tEpU"
                   />
-                  <Recommendation label="Secureum" href="https://example.com" />
+                  <Recommendation label="Secureum" />
                 </ul>
                 <div id="Twitter"></div>
               </div>
@@ -259,6 +259,10 @@ const RecommendationsPage = () => {
                     href="https://defiprotocolbycode.substack.com/"
                   />
                   <Recommendation
+                    label="Week in Ethereum News"
+                    href="https://weekinethereumnews.com/"
+                  />
+                  <Recommendation
                     label="Decrypt"
                     href="https://decrypt.co/newsletters"
                   />
@@ -279,6 +283,30 @@ const RecommendationsPage = () => {
                     href="https://lightnet.g360dao.io"
                   />
                   <Recommendation label="Cantina" href="https://cantina.xyz/" />
+                </ul>
+                <div id="Courses"></div>
+              </div>
+            </div>
+
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
+              <h2 className="text-xl font-semibold mb-2 text-left text-white">
+                Courses
+              </h2>
+              <hr className="border-gray-500 my-4" />
+              <div>
+                <ul className="list-disc ml-6 mt-4 font-normal text-white">
+                  <Recommendation
+                    label="LearnWeb3.io"
+                    href="https://learnweb3.io/degrees/ethereum-developer-degree/"
+                  />
+                  <Recommendation
+                    label="Smart Contract Hacking Course"
+                    href="https://smartcontractshacking.com/?referral=bloqarl"
+                  />
+                  <Recommendation
+                    label="Alchemy University"
+                    href="https://university.alchemy.com/"
+                  />
                 </ul>
                 <div id="CodeChallenges"></div>
               </div>

@@ -54,6 +54,14 @@ const Web3Community = () => {
           </h2>
         </Link>
 
+        <Link href="/recommendations/RecommendationsPage/#Courses">
+          <h2 className="text-xl font-semibold text-white text-left mb-6 border p-1 hover:shadow-md hover:shadow-white">
+            Find the
+            <span className="text-[#00FFFF]"> course</span> that fits you the
+            most
+          </h2>
+        </Link>
+
         <Link href="/recommendations/RecommendationsPage/#CodeChallenges">
           <h2 className="text-xl font-semibold text-white text-left mb-6 border p-1 hover:shadow-md hover:shadow-white">
             Learn with the most interesting

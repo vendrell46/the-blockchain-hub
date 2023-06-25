@@ -15,12 +15,12 @@ function contentCard(title, description, link) {
   );
 }
 
-const SmartContractPage = () => {
+const TwitterPage = () => {
   return (
     <div className="max-w-[1240px] mx-auto pt-20 pb-20">
       <section className="mb-14 mt-40">
         <h2 className="text-xxl tracking-widest uppercase text-[#00FFFF] text-center">
-          Smart Contract
+          Twitter Updates
         </h2>
         <p className="mt-4 mb-0 text-lg text-white text-center">
           These articles are written by me.
@@ -62,40 +62,8 @@ const SmartContractPage = () => {
           )}
         </div>
       </section>
-      <section>
-        <h2 className="text-white text-3xl font-bold mb-4">
-          Other resources about Smart Contracts
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {contentCard(
-            'Useful Solidity Patterns',
-            '',
-            'https://github.com/dragonfly-xyz/useful-solidity-patterns'
-          )}
-          {contentCard(
-            'Low-Level Guide To Solidity`s Storage',
-            '',
-            'https://degatchi.com/articles/low_level_guide_to_soliditys_storage_management'
-          )}
-          {contentCard(
-            'Bit Shifting and Masking in Assembly(YUL)',
-            '',
-            'https://medium.com/@mweiss.eth/solidity-and-evm-bit-shifting-and-masking-in-assembly-yul-942f4b4ebb6a'
-          )}
-          {contentCard(
-            'How to test a smart contract function a million times',
-            '',
-            'https://www.notonlyowner.com/learn/how-to-test-a-smart-contract-function-a-million-times'
-          )}
-          {contentCard(
-            'Awesome EIP2535 Diamond resources',
-            '',
-            'https://github.com/mudgen/awesome-diamonds'
-          )}
-        </div>
-      </section>
     </div>
   );
 };
 
-export default SmartContractPage;
+export default TwitterPage;

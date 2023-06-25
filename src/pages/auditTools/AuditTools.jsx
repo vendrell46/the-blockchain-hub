@@ -106,6 +106,10 @@ const PrivateAuditsPage = () => {
                     label="Set of useful tools"
                     href="https://eth-toolbox.com/"
                   />
+                  <Tool
+                    label="Search for verified smart contracts"
+                    href="https://www.codeslaw.app/"
+                  />
                 </ul>
               </div>
             </div>

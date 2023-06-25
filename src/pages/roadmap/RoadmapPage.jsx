@@ -66,24 +66,19 @@ const RoadmapPage = () => {
         <h2 className="text-white text-3xl font-bold mb-4">Other roadmaps</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {contentCard(
-            'Title 1',
-            'One line description 1',
-            'https://example.com/link1'
+            'Secureum Mind Map',
+            '',
+            'https://github.com/x676f64/secureum-mind_map'
           )}
           {contentCard(
-            'Title 2',
-            'One line description 2',
-            'https://example.com/link2'
+            'Ethereum security road-map',
+            '',
+            'https://mattaereal.notion.site/matta-s-Ethereum-security-road-map-cf7d7f2e48ea4aa0a8f4a2eff86342a7'
           )}
           {contentCard(
-            'Title 3',
-            'One line description 3',
-            'https://example.com/link3'
-          )}
-          {contentCard(
-            'Title 4',
-            'One line description 4',
-            'https://example.com/link4'
+            'QuillAudit`s SmartContract Auditor',
+            '',
+            'https://github.com/Quillhash/QuillAudit_Auditor_Roadmap'
           )}
         </div>
       </section>

@@ -83,24 +83,19 @@ const DeFiPage = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {contentCard(
-            'Title 1',
-            'One line description 1',
-            'https://example.com/link1'
+            'Defi Minimal',
+            '',
+            'https://github.com/smartcontractkit/defi-minimal'
           )}
           {contentCard(
-            'Title 2',
-            'One line description 2',
-            'https://example.com/link2'
+            'Uniswap V3 Development Book',
+            '',
+            'https://uniswapv3book.com/'
           )}
           {contentCard(
-            'Title 3',
-            'One line description 3',
-            'https://example.com/link3'
-          )}
-          {contentCard(
-            'Title 4',
-            'One line description 4',
-            'https://example.com/link4'
+            'Lending and Borrowing',
+            '',
+            'https://blog.smlxl.io/defi-lending-concepts-part-1-lending-and-borrowing-f646d6a08dd7'
           )}
         </div>
       </section>
