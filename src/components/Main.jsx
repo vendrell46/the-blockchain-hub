@@ -9,9 +9,9 @@ const Main = () => {
       id="Home"
       className="flex flex-col items-center justify-center min-h-screen mb-24"
     >
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center mt-10 ">
+      <div className="max-w-[1240px] mx-auto p-2 flex justify-center mt-10 ">
         <div className="font-inconsolata">
-          <div className="flex flex-col md:flex-row md:space-x-10 mt-40 mb-20">
+          <div className="flex flex-col md:flex-row md:space-x-1 mt-40 mb-20">
             <div className="md:w-1/3 flex justify-center items-center">
               {/* Add your avatar image */}
               <div className="rounded-full overflow-hidden w-70 h-70">
@@ -28,13 +28,12 @@ const Main = () => {
               <h2 className="text-white text-3xl md:text-4xl font-bold">
                 About Me
               </h2>
+              <p className="text-white text-lg md:text-xl mt-4">Bloqarl</p>
               <p className="text-gray-400 text-lg md:text-xl mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                id nunc varius, volutpat est sit amet, elementum tellus. Fusce
-                ultrices ultricies lectus, vitae lobortis nunc fermentum eu.
-                Pellentesque condimentum sapien non justo efficitur, sit amet
-                viverra neque tempus. Vestibulum tempor nunc a lorem feugiat,
-                vitae hendrerit elit mattis.
+                Smart Contract Auditor
+              </p>
+              <p className="text-gray-400 text-lg md:text-xl mt-4">
+                Content creator for Web3 Security
               </p>
             </div>
           </div>
