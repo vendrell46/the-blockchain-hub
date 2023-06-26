@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div
       id="Services"
-      className="flex flex-col items-center justify-center min-h-screen mb-24"
+      className="flex flex-col items-center justify-center min-h-screen"
     >
       <div className="">
         <h1 className="text-4xl text-center p-4 text-[#00FFFF] ">Services</h1>
@@ -18,7 +18,7 @@ const Services = () => {
       </p>
 
       <div className="flex flex-wrap mt-16 justify-center">
-        <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-4 m-4 ">
+        <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-20 m-4 ">
           <h2 className="text-xl font-semibold mb-2 text-white">
             Blockchain Technical Content Writer
           </h2>
@@ -28,7 +28,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-4 m-4 ">
+        <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-20 m-4 ">
           <h2 className="text-xl font-semibold mb-2 text-white">
             Book a Private Audit
           </h2>
@@ -41,7 +41,7 @@ const Services = () => {
 
       <Link
         href={'/services/ServicesPage'}
-        className="mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg dark:bg-[#00FFFF] dark:hover:bg-blue-300 "
+        className="mt-20 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg dark:bg-[#00FFFF] dark:hover:bg-blue-300 "
       >
         Go to Services
       </Link>

@@ -19,7 +19,7 @@ const Audit = ({ label, href }) => {
 
 const PrivateAuditsPage = () => {
   return (
-    <div id="PrivateAuditsPage" className="w-full min-h-screen bg-blac mb-34">
+    <div id="PrivateAuditsPage" className="w-full min-h-screen bg-blac mb-40">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center pt-10 pb-20">
         <div className="font-inconsolata">
           <h2 className="text-xxl tracking-widest uppercase text-[#00FFFF] text-center font-inconsolata-bold mt-40">
