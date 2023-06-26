@@ -21,17 +21,29 @@ const ServicesPage = () => {
           <hr className="border-gray-500 my-4" />
           <div>
             <p className="text-white font-bold mt-4">
-              You have a small project and would be interested on someone
-              checking in order to:
-              <ul className="list-disc ml-6 mt-4 font-normal">
-                <li>Code review</li>
-                <li>Deep Dive Audit</li>
+              <ul className="list-disc ml-6 mt-4 font-normal space-y-4">
+                <li>
+                  I can write a breakdown article of your DeFi protocol in a way
+                  that most developers/auditors will understand, in order to
+                  help it be developed further and/or audited.
+                </li>
+                <li>
+                  I can review your newly developed tool/website and write an
+                  article for auditors in order to introduce it to the Web3
+                  community.
+                </li>
+                <li>
+                  I like writing about anything interesting Blockchain-related.
+                  Reach out with your proposal.
+                </li>
               </ul>
             </p>
           </div>
         </div>
         <Link
           href="https://twitter.com/TheBlockChainer"
+          target="_blank"
+          rel="noopener noreferrer"
           className=" mt-0 inline-flex items-center px-6 py-1 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
         >
           DM me
@@ -48,12 +60,12 @@ const ServicesPage = () => {
                 Simple Audit
               </p>
               <p className="text-white font-bold">
-                You have a small project and would be interested in having
-                someone check it in order to:
+                Audit for small projects. The focus would be on the following
+                potential issues:
               </p>
               <ul className="list-disc ml-6 mt-4 text-white font-normal">
-                <li>Code review</li>
-                <li>Deep Dive Audit</li>
+                <li>Base package (Informational + Gas Optimization)</li>
+                <li>Low severity</li>
               </ul>
             </div>
             <div className="w-full md:w-1/2 pl-4">
@@ -63,11 +75,14 @@ const ServicesPage = () => {
                   Deep Dive Audit
                 </p>
                 <p className="text-white font-bold">
-                  Another paragraph for the second column.
+                  Audit providing a complete review to identify all potential
+                  issues in the codebase. It includes:
                 </p>
                 <ul className="list-disc ml-6 mt-4 text-white font-normal">
-                  <li>Another bullet point</li>
-                  <li>Yet another bullet point</li>
+                  <li>Base package (Informational, Gas Opt)</li>
+                  <li>Low, Medium and High severity issues</li>
+                  <li>Complete report provided</li>
+                  <li>Follow up work on feedback</li>
                 </ul>
               </div>
             </div>
@@ -75,6 +90,8 @@ const ServicesPage = () => {
         </div>
         <Link
           href="https://twitter.com/TheBlockChainer"
+          target="_blank"
+          rel="noopener noreferrer"
           className=" mt-0 inline-flex items-center px-6 py-1 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
         >
           DM me
@@ -87,8 +104,6 @@ const ServicesPage = () => {
           <hr className="border-gray-500 my-4" />
           <div>
             <p className="text-white font-bold mt-4">
-              You have a small project and would be interested on someone
-              checking in order to:
               <ul className="list-disc ml-6 mt-4 font-normal">
                 <li>Quick feedback chat</li>
                 <li>Career guidance</li>
@@ -99,6 +114,8 @@ const ServicesPage = () => {
         </div>
         <Link
           href="https://topmate.io/bloqarl"
+          target="_blank"
+          rel="noopener noreferrer"
           className=" mt-0 inline-flex items-center px-6 py-1 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
         >
           Book

@@ -25,7 +25,7 @@ const Main = () => {
             </div>
             <div className="md:w-2/3 flex flex-col justify-center text-center md:text-left">
               {/* Add text about yourself */}
-              <h2 className="text-white text-3xl md:text-4xl font-bold">
+              <h2 className="text-white text-3xl md:text-4xl font-bold mt-4">
                 About Me
               </h2>
               <p className="text-white text-lg md:text-xl mt-4">Bloqarl</p>
@@ -38,7 +38,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="text-center bg-gray-100 p-6 mb-6">
+          <div className="text-center bg-gray-100 p-6 mb-6 justify-center items-center">
             <h2 className="pt-4">Read articles related to Web3 Security</h2>
             <h3 className="py-2 text-gray-600 mb-4">
               Go ahead and start navigating through the different topics I write

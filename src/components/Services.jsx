@@ -23,8 +23,8 @@ const Services = () => {
             Blockchain Technical Content Writer
           </h2>
           <p className="text-white mt-10">
-            This is the description of Service 1. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
+            I like writing about anything interesting Blockchain-related. Reach
+            out with your proposal.
           </p>
         </div>
 
@@ -33,8 +33,8 @@ const Services = () => {
             Book a Private Audit
           </h2>
           <p className="text-white mt-10">
-            This is the description of Service 2. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
+            Deep and complete audit offered and also a base package offered for
+            small projects.
           </p>
         </div>
       </div>
