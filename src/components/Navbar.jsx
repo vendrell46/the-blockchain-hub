@@ -380,7 +380,7 @@ const Navbar = () => {
                 </button>
                 {isArticlesDropdownOpen && (
                   <ul
-                    className="absolute left-0 w-40 py-2 mt-0 space-y-1 border rounded-lg dark:bg-gray-800 dark:border-gray-700"
+                    className="absolute left-0 w-40 py-2 mt-0 space-y-2 bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-700"
                     onMouseEnter={handleArticlesMouseEnter}
                     onMouseLeave={handleArticlesMouseLeave}
                     ref={articlesDropdownRef}
