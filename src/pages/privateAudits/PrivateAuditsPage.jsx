@@ -1,13 +1,15 @@
 import React from 'react';
 
 const Audit = ({ label, href }) => {
+  const shouldUnderline = href ? 'hover:underline' : '';
+
   return (
     <li>
       <a
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="hover:underline"
+        className={shouldUnderline}
       >
         {label}
       </a>

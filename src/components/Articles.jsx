@@ -23,7 +23,7 @@ function contentCard(title, description, link, tag) {
 
 const Articles = () => {
   return (
-    <div id="Articles" className="w-full min-h-screen p-2 mb-40 mt-20">
+    <div id="Articles" className="w-full min-h-screen p-2 mb-40 mt-30">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <div className="font-inconsolata">
           <h2 className="text-xxl tracking-widest uppercase text-[#00FFFF] font-inconsolata-bold text-center pt-40">
@@ -64,7 +64,7 @@ const Articles = () => {
           </div>
           <Link
             href={'/myJourney/MyJourneyPage'}
-            class=" mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
+            className=" mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
           >
             Read more articles
           </Link>
@@ -100,7 +100,7 @@ const Articles = () => {
             </div>
             <Link
               href={'/smartContract/SmartContractPage'}
-              class=" mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
+              className=" mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
             >
               Read more articles
             </Link>
@@ -137,7 +137,7 @@ const Articles = () => {
             </div>
             <Link
               href={'/web3security/Web3SecurityPage'}
-              class=" mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
+              className=" mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
             >
               Read more articles
             </Link>
@@ -175,7 +175,7 @@ const Articles = () => {
             </div>
             <Link
               href={'/roadmap/RoadmapPage'}
-              class=" mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
+              className=" mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#00FFFF] dark:hover:bg-blue-300 dark:focus:ring-blue-800"
             >
               Read more articles
             </Link>

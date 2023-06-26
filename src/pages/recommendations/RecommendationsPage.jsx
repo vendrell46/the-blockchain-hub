@@ -35,7 +35,10 @@ const RecommendationsPage = () => {
                     label="Guardian Audits"
                     href="https://discord.gg/vBh3M4tEpU"
                   />
-                  <Recommendation label="Secureum" />
+                  <Recommendation
+                    label="Secureum"
+                    href="https://t.co/m9fMLfXhEU"
+                  />
                 </ul>
                 <div id="Twitter"></div>
               </div>

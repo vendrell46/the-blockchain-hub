@@ -18,6 +18,22 @@ function App({ Component, pageProps }) {
           rel="stylesheet"
         />
         <link rel="icon" href="/favicon.ico" />
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.$crisp=[];
+            window.CRISP_WEBSITE_ID="a442a91e-022d-41b8-b795-00215ef6a901";
+            (function(){
+              var d=document;
+              var s=d.createElement("script");
+              s.src="https://client.crisp.chat/l.js";
+              s.async=1;
+              d.getElementsByTagName("head")[0].appendChild(s);
+            })();
+            `,
+          }}
+        />
       </Head>
       <style jsx global>{`
         body {
