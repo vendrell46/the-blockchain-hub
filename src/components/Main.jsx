@@ -5,7 +5,10 @@ import { AppWrap } from '../wrapper';
 
 const Main = () => {
   return (
-    <div id="Home" className="w-full min-h-screen py-2 mb-40 bg-black">
+    <div
+      id="Home"
+      className="flex flex-col items-center justify-center min-h-screen mb-24"
+    >
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center mt-10 ">
         <div className="font-inconsolata">
           <div className="flex flex-col md:flex-row md:space-x-10 mt-40 mb-20">
