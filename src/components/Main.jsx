@@ -11,7 +11,7 @@ const Main = () => {
     >
       <div className="max-w-[1240px] mx-auto p-2 flex justify-center mt-10 ">
         <div className="font-inconsolata">
-          <div className="flex flex-col md:flex-row md:space-x-1 mt-40 mb-20">
+          <div className="flex flex-col md:flex-row md:space-x-4 mt-40 mb-20 justify-center items-center">
             <div className="md:w-1/3 flex justify-center items-center">
               {/* Add your avatar image */}
               <div className="rounded-full overflow-hidden w-70 h-70">
@@ -23,7 +23,7 @@ const Main = () => {
                 />
               </div>
             </div>
-            <div className="md:w-2/3 flex flex-col justify-center">
+            <div className="md:w-2/3 flex flex-col justify-center text-center md:text-left">
               {/* Add text about yourself */}
               <h2 className="text-white text-3xl md:text-4xl font-bold">
                 About Me
