@@ -23,7 +23,7 @@ function contentCard(title, description, link, tag) {
 
 const Articles = () => {
   return (
-    <div id="Articles" className="w-full min-h-screen p-2 mb-40 mt-30">
+    <div id="Articles" className="w-full min-h-screen p-2 mb-40">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <div className="font-inconsolata">
           <h2 className="text-xxl tracking-widest uppercase text-[#00FFFF] font-inconsolata-bold text-center pt-40">

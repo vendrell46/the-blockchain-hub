@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-4">
       <div className="container mx-auto">
-        <div className="flex flex-col items-center mt-8">
+        <div className="flex flex-col items-center mt-8 justify-center">
           <h2 className="text-white text-lg font-semibold">
             Subscribe to the Newsletter
           </h2>
-          <h2 className="text-white text-lg font-semibold mb-4">
+          <h2 className="text-white text-lg font-semibold mb-4 justify-center">
             and stay up to date with the latest changes
           </h2>
           <iframe
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-between items-center mt-4">
           <p>Built by Bloqarl</p>
-          <p>
+          <p className="justify-right">
             &copy; {new Date().getFullYear()} The Blockchainer Hub | All rights
             reserved.
           </p>
