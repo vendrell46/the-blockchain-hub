@@ -24,7 +24,7 @@ const Auditing = () => {
       <div className="flex flex-wrap mt-16 justify-center">
         <Link
           href="/privateAudits/PrivateAuditsPage"
-          className="w-full md:w-1/3 bg-black border border-white rounded-lg p-20 m-4 hover:shadow-xl hover:shadow-white"
+          className="w-full md:w-1/3 bg-black border border-white rounded-lg p-10 m-4 hover:shadow-xl hover:shadow-white"
         >
           <h2 className="text-xl font-semibold mb-2 text-white">
             Private Audit Reports
@@ -37,7 +37,7 @@ const Auditing = () => {
 
         <Link
           href="/auditTools/AuditTools"
-          className="w-full md:w-1/3 bg-black border border-white rounded-lg p-20 m-4 hover:shadow-xl hover:shadow-white"
+          className="w-full md:w-1/3 bg-black border border-white rounded-lg p-10 m-4 hover:shadow-xl hover:shadow-white"
         >
           <h2 className="text-xl font-semibold mb-2 text-white">Audit Tools</h2>
           <p className="text-white mt-10">

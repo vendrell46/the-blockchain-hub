@@ -18,7 +18,7 @@ const Services = () => {
       </p>
 
       <div className="flex flex-wrap mt-16 justify-center">
-        <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-20 m-4 ">
+        <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-10 m-4 ">
           <h2 className="text-xl font-semibold mb-2 text-white">
             Blockchain Technical Content Writer
           </h2>
@@ -28,7 +28,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-20 m-4 ">
+        <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-10 m-4 ">
           <h2 className="text-xl font-semibold mb-2 text-white">
             Book a Private Audit
           </h2>
