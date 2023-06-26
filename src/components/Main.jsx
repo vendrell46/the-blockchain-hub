@@ -5,7 +5,7 @@ import { AppWrap } from '../wrapper';
 
 const Main = () => {
   return (
-    <div id="Home" className="w-full h-screen mb-40 bg-black">
+    <div id="Home" className="w-full min-h-screen h-screen mb-40 bg-black">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center mt-10">
         <div className="font-inconsolata">
           <div className="flex flex-col md:flex-row md:space-x-10 mt-40 mb-20">
@@ -20,7 +20,7 @@ const Main = () => {
                 />
               </div>
             </div>
-            <div className="md:w-2/3 flex flex-col justify-center">
+            <div className="md:w-2/3 flex flex-col justify-center sm:w-2/3">
               {/* Add text about yourself */}
               <h2 className="text-white text-3xl md:text-4xl font-bold">
                 About Me
@@ -36,7 +36,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="text-center bg-gray-100 p-6 mb-6">
+          <div className="text-center bg-gray-100 p-6 mb-6 sm:w-2/3 items-center">
             <h2 className="pt-4">Read articles related to Web3 Security</h2>
             <h3 className="py-2 text-gray-600 mb-4">
               Go ahead and start navigating through the different topics I write
@@ -49,7 +49,7 @@ const Main = () => {
               Start Reading
             </Link>
           </div>
-          <div className="bg-gray-100 p-6 mb-6 text-center">
+          <div className="bg-gray-100 p-6 mb-6 text-center sm:w-2/3 items-center">
             <h2 className="pt-4">
               Hire me as a Technical Writer or Private Auditor
             </h2>
@@ -64,7 +64,7 @@ const Main = () => {
               Contact Me
             </Link>
           </div>
-          <div className="bg-gray-100 p-6 mb-6 text-center">
+          <div className="bg-gray-100 p-6 mb-6 text-center sm:w-2/3 items-center">
             <h2 className="pt-4 pb-4">
               Take advantage of the full potential of the Web3 Community.
             </h2>
