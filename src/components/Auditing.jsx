@@ -30,8 +30,8 @@ const Auditing = () => {
             Private Audit Reports
           </h2>
           <p className="text-white mt-10">
-            This is the description of Tool 1. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
+            Get ready to learn from top auditors thanks to their public reports
+            of their private audits.
           </p>
         </Link>
 
@@ -41,8 +41,8 @@ const Auditing = () => {
         >
           <h2 className="text-xl font-semibold mb-2 text-white">Audit Tools</h2>
           <p className="text-white mt-10">
-            This is the description of Tool 2. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
+            I have gathered some tools that will help you while auditing the
+            code. Here you will always have them at hand.
           </p>
         </Link>
       </div>
