@@ -5,12 +5,15 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white py-4">
       <div className="container mx-auto">
         <div className="flex flex-col items-center mt-8 justify-center">
-          <h2 className="text-white text-lg font-semibold">
-            Subscribe to the Newsletter
-          </h2>
-          <h2 className="text-white text-lg font-semibold mb-4 justify-center">
-            and stay up to date with the latest changes
-          </h2>
+          <div className="items-center justify-center text-center">
+            <h2 className="text-white text-lg font-semibold text-center">
+              Subscribe to the Newsletter
+            </h2>
+            <h2 className="text-white text-lg font-semibold mb-4 text-center">
+              and stay up to date with the latest changes
+            </h2>
+          </div>
+
           <iframe
             src="https://theblockchainerhub.substack.com/embed"
             width="340"
@@ -23,7 +26,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-between items-center mt-4">
           <p>Built by Bloqarl</p>
-          <p className="justify-right">
+          <p className="justify-right items-end text-right">
             &copy; {new Date().getFullYear()} The Blockchainer Hub | All rights
             reserved.
           </p>

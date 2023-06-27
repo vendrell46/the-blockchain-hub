@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Web3 from 'web3';
 import Navbar from 'theblockchainhub/components/Navbar';
 import Footer from 'theblockchainhub/components/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 function getLibrary(provider) {
   return new Web3(provider);
@@ -43,6 +44,7 @@ function App({ Component, pageProps }) {
       <div className="font-inconsolata">
         <Navbar />
         <Component {...pageProps} />
+        <Analytics />
         <Footer />
       </div>{' '}
     </>

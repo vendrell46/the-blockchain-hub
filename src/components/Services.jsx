@@ -41,7 +41,7 @@ const Services = () => {
 
       <Link
         href={'/services/ServicesPage'}
-        className="mt-20 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg dark:bg-[#00FFFF] dark:hover:bg-blue-300 "
+        className="mt-6 inline-flex items-center px-3 py-2 text-md font-medium text-center text-black bg-[#00FFFF] rounded-lg dark:bg-[#00FFFF] dark:hover:bg-blue-300 "
       >
         Go to Services
       </Link>
