@@ -10,7 +10,7 @@ const NavigationDots = ({ active }) => (
         <a
           href={`#${item}`}
           key={item + index}
-          className="w-[12px] h-[12px] rounded-[50%] bg-[#cbcbcb] my-3 mr-4"
+          className="w-[12px] h-[12px] rounded-[50%] bg-[#cbcbcb] my-3 ml-1 mr-1.5"
           style={active === item ? { backgroundColor: '#00FFFF' } : {}}
         />
       )
