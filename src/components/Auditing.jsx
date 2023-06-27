@@ -5,10 +5,7 @@ import { AppWrap } from '../wrapper';
 
 const Auditing = () => {
   return (
-    <div
-      id="Auditing"
-      className="flex flex-col items-center justify-center min-h-screen"
-    >
+    <div id="Auditing" className="flex flex-col items-center justify-center">
       <div className="">
         <h1 className="text-4xl text-center p-4 text-[#00FFFF] ">Auditing</h1>
       </div>

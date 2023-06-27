@@ -28,7 +28,7 @@ const Footer = () => {
           <p>Built by Bloqarl</p>
           <p className="justify-right items-end text-right">
             &copy; {new Date().getFullYear()} The Blockchainer Hub | All rights
-            reserved.
+            reserved
           </p>
         </div>
       </div>

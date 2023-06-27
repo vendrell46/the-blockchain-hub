@@ -7,32 +7,34 @@ const Main = () => {
   return (
     <div
       id="Home"
-      className="flex flex-col items-center justify-center min-h-screen mb-24"
+      className="flex flex-col items-center justify-center min-h-screen mb-4"
     >
       <div className="max-w-[1240px] mx-auto p-2 flex justify-center mt-10 ">
         <div className="font-inconsolata">
           <div className="flex flex-col md:flex-row md:space-x-4 mt-40 mb-20 justify-center items-center">
-            <div className="md:w-1/3 flex justify-center items-center">
-              {/* Add your avatar image */}
-              <div className="rounded-full overflow-hidden w-70 h-70">
-                <Image
-                  src="/assets/about_me.png"
-                  alt="Avatar"
-                  width={200}
-                  height={200}
-                />
+            <div className="flex flex-row md:space-x-12">
+              <div className="md:w-1/3 flex justify-center items-center">
+                {/* Add your avatar image */}
+                <div className="rounded-[15%] overflow-hidden w-70 h-70">
+                  <Image
+                    src="/assets/about_me.png"
+                    alt="Avatar"
+                    width={200}
+                    height={200}
+                  />
+                </div>
               </div>
-            </div>
-            <div className="md:w-2/3 flex flex-col justify-center text-center md:text-left">
-              {/* Add text about yourself */}
-              <h2 className="text-white text-3xl md:text-4xl font-bold mt-4"></h2>
-              <p className="text-white text-lg md:text-xl mt-4">Bloqarl</p>
-              <p className="text-gray-400 text-lg md:text-xl mt-4">
-                Smart Contract Auditor
-              </p>
-              <p className="text-gray-400 text-lg md:text-xl mt-4">
-                Content creator for Web3 Security
-              </p>
+              <div className="md:w-2/3 flex flex-col justify-center text-center md:text-left">
+                {/* Add text about yourself */}
+                <h2 className="text-white text-3xl md:text-4xl font-bold mt-4"></h2>
+                <p className="text-white text-lg md:text-3xl mt-4">Bloqarl</p>
+                <p className="text-gray-400 text-lg md:text-xl mt-4">
+                  Smart Contract Auditor
+                </p>
+                <p className="text-gray-400 text-lg md:text-xl mt-4">
+                  Content creator for Web3 Security
+                </p>
+              </div>
             </div>
           </div>
 

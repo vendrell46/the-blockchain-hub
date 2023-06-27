@@ -7,7 +7,7 @@ const Web3Community = () => {
   return (
     <div
       id="Web3Community"
-      className="flex flex-col items-center justify-center min-h-screen mb-24"
+      className="flex flex-col items-center justify-center"
     >
       <div className="">
         <h1 className="text-4xl text-center p-4 text-[#00FFFF] ">
