@@ -25,9 +25,7 @@ const Main = () => {
             </div>
             <div className="md:w-2/3 flex flex-col justify-center text-center md:text-left">
               {/* Add text about yourself */}
-              <h2 className="text-white text-3xl md:text-4xl font-bold mt-4">
-                About Me
-              </h2>
+              <h2 className="text-white text-3xl md:text-4xl font-bold mt-4"></h2>
               <p className="text-white text-lg md:text-xl mt-4">Bloqarl</p>
               <p className="text-gray-400 text-lg md:text-xl mt-4">
                 Smart Contract Auditor
