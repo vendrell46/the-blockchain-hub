@@ -38,7 +38,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="text-center bg-gray-100 p-6 mb-6 justify-center items-center">
+          <div className="text-center bg-gray-100 p-6 mb-6 justify-center mx-auto">
             <h2 className="pt-4">Read articles related to Web3 Security</h2>
             <h3 className="py-2 text-gray-600 mb-4">
               Go ahead and start navigating through the different topics I write
@@ -51,7 +51,7 @@ const Main = () => {
               Start Reading
             </Link>
           </div>
-          <div className="bg-gray-100 p-6 mb-6 text-center">
+          <div className="bg-gray-100 p-6 mb-6 text-center mx-auto">
             <h2 className="pt-4">
               Hire me as a Technical Writer or Private Auditor
             </h2>
@@ -66,7 +66,7 @@ const Main = () => {
               Contact Me
             </Link>
           </div>
-          <div className="bg-gray-100 p-6 mb-6 text-center">
+          <div className="bg-gray-100 p-6 mb-6 text-center mx-auto">
             <h2 className="pt-4 pb-4">
               Take advantage of the full potential of the Web3 Community.
             </h2>
@@ -74,7 +74,7 @@ const Main = () => {
               Study their private audit reports. Check how to stay up to date
               and connected. Find the best auditing tools.
             </h3>
-            <div className="flex justify-center space-x-20">
+            <div className="flex justify-center space-x-10 mx-auto">
               <Link
                 href="/privateAudits/PrivateAuditsPage"
                 className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
