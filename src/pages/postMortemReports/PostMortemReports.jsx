@@ -38,7 +38,7 @@ const PostMortemReports = () => {
                     href="https://quillaudits.medium.com/decoding-orion-protocols-reentrancy-exploit-quillaudits-396de59449f7?source=user_profile"
                   />
                   <Report
-                    label="dForce Protocol “Read Only Reentrancy” Exploit"
+                    label="dForce Protocol Read Only Reentrancy Exploit"
                     href="https://quillaudits.medium.com/decoding-dforce-protocol-read-only-reentrancy-exploit-quillaudits-c012aed4d666?source=user_profile"
                   />
                   <Report
