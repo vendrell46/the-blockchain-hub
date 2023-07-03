@@ -83,10 +83,6 @@ const RecommendationsPage = () => {
                       href="https://twitter.com/bytes032"
                     />
                     <Recommendation
-                      label="@0xWeisss"
-                      href="https://twitter.com/0xWeisss"
-                    />
-                    <Recommendation
                       label="@KrisApost1"
                       href="https://twitter.com/KrisApost1"
                     />
