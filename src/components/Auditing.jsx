@@ -45,6 +45,20 @@ const Auditing = () => {
             code. Here you will always have them at hand.
           </p>
         </Link>
+
+        <Link
+          href="/postMortemReports/PostMortemReports"
+          className="w-full md:w-1/3 bg-black border border-white rounded-lg p-10 m-4 hover:shadow-xl hover:shadow-white"
+        >
+          <h2 className="text-xl font-semibold mb-2 text-white">
+            Post Mortem Reports
+          </h2>
+          <p className="text-white mt-10">
+            Stay up to date with what happened in the recent hacks. You'll find
+            here a summary, flow of funds, scam steps and everything connected
+            with most important hacks.
+          </p>
+        </Link>
       </div>
     </div>
   );

@@ -91,7 +91,13 @@ const Main = () => {
                 href="/auditTools/AuditTools"
                 className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
               >
-                Auditing tools
+                Audit Tools
+              </Link>
+              <Link
+                href="/postMortemReports/PostMortemReports"
+                className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
+              >
+                Post Mortem
               </Link>
             </div>
           </div>

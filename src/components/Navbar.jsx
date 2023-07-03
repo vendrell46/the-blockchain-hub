@@ -334,6 +334,15 @@ const Navbar = () => {
                             Audit tools
                           </Link>
                         </li>
+                        <li>
+                          <Link
+                            href={'/postMortemReports/PostMortemReports'}
+                            className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            onClick={() => setIsAuditingDropdownOpen(false)}
+                          >
+                            Post Mortem reports
+                          </Link>
+                        </li>
                       </ul>
                     )}
                   </li>
@@ -491,6 +500,15 @@ const Navbar = () => {
                         onClick={() => setIsAuditingDropdownOpen(false)}
                       >
                         Audit tools
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href={'/postMortemReports/PostMortemReports'}
+                        className="block px-4 py-2 text-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                        onClick={() => setIsAuditingDropdownOpen(false)}
+                      >
+                        Post Mortem reports
                       </Link>
                     </li>
                   </ul>
