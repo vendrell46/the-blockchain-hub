@@ -87,6 +87,8 @@ const Main = () => {
               >
                 Web3 Community
               </Link>
+            </div>
+            <div className="flex justify-center space-x-10 mx-auto">
               <Link
                 href="/auditTools/AuditTools"
                 className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
