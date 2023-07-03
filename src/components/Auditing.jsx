@@ -54,9 +54,9 @@ const Auditing = () => {
             Post Mortem Reports
           </h2>
           <p className="text-white mt-10">
-            Stay up to date with what happened in the recent hacks. You'll find
-            here a summary, flow of funds, scam steps and everything connected
-            with most important hacks.
+            Stay up to date with what happened in the recent hacks. You will
+            find here a summary, flow of funds, scam steps and everything
+            connected with most important hacks.
           </p>
         </Link>
       </div>
