@@ -28,7 +28,7 @@ const PostMortemReports = () => {
           <div className="flex flex-wrap mt-18">
             <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border mt-12">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
-                QuillAudits - Web3 Security
+                QuillAcademy - Web3 Security
               </h2>
               <hr className="border-gray-500 my-4" />
               <div className="w-full md:w-2/3">
