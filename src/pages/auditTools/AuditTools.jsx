@@ -53,6 +53,10 @@ const PrivateAuditsPage = () => {
                     label="Automated Market Maker Playground"
                     href="https://amm-playground.on.fleek.co/"
                   />
+                  <Tool
+                    label="Enso Transaction Simulator"
+                    href="https://github.com/EnsoFinance/transaction-simulator/?utm_source=substack&utm_medium=email#enso-transaction--simulator-"
+                  />
                 </ul>
               </div>
             </div>
@@ -71,6 +75,21 @@ const PrivateAuditsPage = () => {
                   <Tool
                     label="Solidity Metrics"
                     href="https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-metrics"
+                  />
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
+              <h2 className="text-xl font-semibold mb-2 text-left text-white">
+                Testing
+              </h2>
+              <hr className="border-gray-500 my-4" />
+              <div>
+                <ul className="list-disc ml-6 mt-4 font-normal text-white">
+                  <Tool
+                    label="Broken Token"
+                    href="https://github.com/zeroknots/brokentoken?utm_source=substack&utm_medium=email"
                   />
                 </ul>
               </div>

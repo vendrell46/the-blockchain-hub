@@ -181,6 +181,11 @@ const Web3SecurityPage = () => {
             '',
             'https://0xvolodya.hashnode.dev/nft-attacks'
           )}
+          {contentCard(
+            'Smart Contract Vulnerabilities',
+            '',
+            'https://github.com/kadenzipfel/smart-contract-vulnerabilities'
+          )}
         </div>
       </section>
     </div>

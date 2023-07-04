@@ -39,6 +39,14 @@ const RecommendationsPage = () => {
                     label="Secureum"
                     href="https://t.co/m9fMLfXhEU"
                   />
+                  <Recommendation
+                    label="web3sec.news"
+                    href="https://t.co/MM9Xg4Cr7P"
+                  />
+                  <Recommendation
+                    label="G360DAO"
+                    href="https://discord.g360dao.io"
+                  />
                 </ul>
                 <div id="Twitter"></div>
               </div>
