@@ -36,7 +36,7 @@ const Ctfs = () => {
             <div className="w-full md:w-4/5 bg-black rounded-lg p-10 m-4 shadow-3d mt-12">
               <a className="text-white">
                 Here is a collection of CTFs shared on Twitter. Make sure you
-                click on Answer whenever you're ready to give your response or
+                click on Answer whenever you`re ready to give your response or
                 find out the solution.
               </a>
 
