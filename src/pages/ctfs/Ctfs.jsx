@@ -34,7 +34,13 @@ const Ctfs = () => {
           </h2>
           <div className="flex flex-wrap mt-18">
             <div className="w-full md:w-4/5 bg-black rounded-lg p-10 m-4 shadow-3d mt-12">
-              <h2 className="text-xl font-semibold mb-2 text-left text-white">
+              <a className="text-white">
+                Here is a collection of CTFs shared on Twitter. Make sure you
+                click on Answer whenever you're ready to give your response or
+                find out the solution.
+              </a>
+
+              <h2 className="text-xl font-semibold mb-2 text-left text-white mt-20">
                 Calyptus
               </h2>
               <hr className="border-gray-500 my-4" />
