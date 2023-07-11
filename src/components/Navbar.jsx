@@ -349,6 +349,15 @@ const Navbar = () => {
                   <Separator />
                   <li>
                     <Link
+                      href="/ctfs/Ctfs"
+                      className="text-gray-900 dark:text-white hover:underline"
+                    >
+                      CTFs
+                    </Link>
+                  </li>
+                  <Separator />
+                  <li>
+                    <Link
                       href="/recommendations/RecommendationsPage"
                       className="text-gray-900 dark:text-white hover:underline"
                     >
@@ -513,6 +522,17 @@ const Navbar = () => {
                     </li>
                   </ul>
                 )}
+              </li>
+
+              <hr className="border-gray-500 my-4" />
+
+              <li>
+                <Link
+                  href="/ctfs/Ctfs"
+                  className="text-gray-900 dark:text-white hover:underline"
+                >
+                  CTFs
+                </Link>
               </li>
 
               <hr className="border-gray-500 my-4" />
