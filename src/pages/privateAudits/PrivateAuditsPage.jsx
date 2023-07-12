@@ -262,6 +262,29 @@ const PrivateAuditsPage = () => {
 
             <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
+                Zach Obront
+              </h2>
+              <hr className="border-gray-500 my-4" />
+              <div>
+                <ul className="list-disc ml-6 mt-4 font-normal text-white">
+                  <Audit
+                    label="Sound - Automated Market"
+                    href="https://github.com/zobront/audits/blob/main/reports/sound.md"
+                  />
+                  <Audit
+                    label="Alligator - Liquid Delegator"
+                    href="https://github.com/zobront/audits/blob/main/reports/alligator.md"
+                  />
+                  <Audit
+                    label="Astaria"
+                    href="https://github.com/zobront/audits/blob/main/reports/astaria.pdf"
+                  />
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
+              <h2 className="text-xl font-semibold mb-2 text-left text-white">
                 Cantina Private Audits
               </h2>
               <hr className="border-gray-500 my-4" />

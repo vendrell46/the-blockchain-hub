@@ -82,6 +82,18 @@ const PrivateAuditsPage = () => {
 
             <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
+                EVM
+              </h2>
+              <hr className="border-gray-500 my-4" />
+              <div>
+                <ul className="list-disc ml-6 mt-4 font-normal text-white">
+                  <Tool label="EVM Storage" href="https://evm.storage/" />
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
+              <h2 className="text-xl font-semibold mb-2 text-left text-white">
                 Testing
               </h2>
               <hr className="border-gray-500 my-4" />
