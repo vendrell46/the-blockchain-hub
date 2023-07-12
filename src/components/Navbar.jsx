@@ -358,7 +358,7 @@ const Navbar = () => {
                   <Separator />
                   <li>
                     <Link
-                      href="/recommendations/RecommendationsPage"
+                      href="/web3community/Web3CommunityPage"
                       className="text-gray-900 dark:text-white hover:underline"
                     >
                       Web3Sec Community
@@ -539,7 +539,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  href="/recommendations/RecommendationsPage"
+                  href="/web3community/Web3CommunityPage"
                   className="text-gray-900 dark:text-white hover:underline"
                 >
                   Web3Sec Community

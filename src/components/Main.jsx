@@ -82,7 +82,7 @@ const Main = () => {
                 Audit reports
               </Link>
               <Link
-                href="/recommendations/RecommendationsPage"
+                href="/web3community/Web3CommunityPage"
                 className="py-2 mt-2 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
               >
                 Web3 Community

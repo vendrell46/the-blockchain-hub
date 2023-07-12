@@ -25,28 +25,28 @@ const Web3Community = () => {
       </p>
 
       <div className="w-full md:w-2/3 bg-black rounded-lg p-6 m-4 shadow-3d mt-6">
-        <Link href="/recommendations/RecommendationsPage/">
+        <Link href="/web3community/Web3CommunityPage/">
           <h2 className="list-disc text-xl font-semibold text-white text-left mb-6 border p-1 hover:shadow-md hover:shadow-white">
             <span className="text-[#00FFFF]">Integrate</span> with Discord
             Communities
           </h2>
         </Link>
 
-        <Link href="/recommendations/RecommendationsPage/#Twitter">
+        <Link href="/web3community/Web3CommunityPage/#Twitter">
           <h2 className="text-xl font-semibold text-white text-left mb-6 border p-1 hover:shadow-md hover:shadow-white">
             <span className="text-[#00FFFF]">Connect and learn</span> from the
             best on Twitter
           </h2>
         </Link>
 
-        <Link href="/recommendations/RecommendationsPage/#Newsletters">
+        <Link href="/web3community/Web3CommunityPage/#Newsletters">
           <h2 className="text-xl font-semibold text-white text-left mb-6 border p-1 hover:shadow-md hover:shadow-white">
             Stay up to date with the most complete{' '}
             <span className="text-[#00FFFF]">Newsletters</span>
           </h2>
         </Link>
 
-        <Link href="/recommendations/RecommendationsPage/#Marketplace">
+        <Link href="/web3community/Web3ComWeb3CommunityPagemunity/#Marketplace">
           <h2 className="text-xl font-semibold text-white text-left mb-6 border p-1 hover:shadow-md hover:shadow-white">
             Be part of a team on the{' '}
             <span className="text-[#00FFFF]">auditor marketplace </span>
@@ -54,7 +54,7 @@ const Web3Community = () => {
           </h2>
         </Link>
 
-        <Link href="/recommendations/RecommendationsPage/#Courses">
+        <Link href="/web3community/Web3CommunityPage/#Courses">
           <h2 className="text-xl font-semibold text-white text-left mb-6 border p-1 hover:shadow-md hover:shadow-white">
             Find the
             <span className="text-[#00FFFF]"> course</span> that fits you the
@@ -62,14 +62,14 @@ const Web3Community = () => {
           </h2>
         </Link>
 
-        <Link href="/recommendations/RecommendationsPage/#CodeChallenges">
+        <Link href="/web3community/Web3CommunityPage/#CodeChallenges">
           <h2 className="text-xl font-semibold text-white text-left mb-6 border p-1 hover:shadow-md hover:shadow-white">
             Learn with the most interesting
             <span className="text-[#00FFFF]"> code challenges</span>
           </h2>
         </Link>
 
-        <Link href="/recommendations/RecommendationsPage/#Podcasts">
+        <Link href="/web3community/Web3CommunityPage/#Podcasts">
           <h2 className="text-xl font-semibold text-white text-left mb-6 border p-1 hover:shadow-md hover:shadow-white">
             Stay up to date with amazing
             <span className="text-[#00FFFF]"> podcasts</span>

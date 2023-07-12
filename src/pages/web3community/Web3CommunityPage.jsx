@@ -15,9 +15,9 @@ const Recommendation = ({ label, href }) => {
   );
 };
 
-const RecommendationsPage = () => {
+const Web3CommunityPage = () => {
   return (
-    <div id="Recommendations" className="w-full min-h-screen bg-black mb-40">
+    <div id="Web3CommunityPage" className="w-full min-h-screen bg-black mb-40">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center pt-10 pb-20">
         <div className="font-inconsolata">
           <div className="flex flex-wrap mt-18 justify-left">
@@ -388,4 +388,4 @@ const RecommendationsPage = () => {
   );
 };
 
-export default RecommendationsPage;
+export default Web3CommunityPage;
