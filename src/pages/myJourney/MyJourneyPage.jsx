@@ -74,6 +74,11 @@ const MyJourneyPage = () => {
           'Learning in Web3 Security is exciting but also exhausting. You need to learn to control your time spent with Web3 sec to not saturate. Here is how I do it.',
           'https://medium.com/@bloqarl/feeling-overwhelmed-while-progressing-on-web3-security-heres-what-you-should-do-9e6b44498740?sk=14b104103cbf66121c9e6685369d50d6'
         )}
+        {contentCard(
+          'How I used ChatGPT to help me build my Web3 Security website',
+          'Is it actually possible to use ChatGPT to build a website? I spent one month building a website on my own and another one with ChatGPT prompts help.',
+          'https://medium.com/@bloqarl/how-i-used-chatgpt-to-help-me-build-my-web3-security-website-8f0aed95dd2e?sk=2cf51cdffb464945fd38abbbdc74075e'
+        )}
       </div>
     </div>
   );

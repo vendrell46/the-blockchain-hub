@@ -128,7 +128,72 @@ const PrivateAuditsPage = () => {
               </div>
             </div>
 
-            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border mt-12">
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
+              <h2 className="text-xl font-semibold mb-2 text-left text-white">
+                Trust
+              </h2>
+              <hr className="border-gray-500 my-4" />
+              <div className="grid grid-cols-2 gap-8">
+                <ul className="list-disc ml-6 mt-4 font-normal text-white">
+                  <Audit
+                    label="Stella - Lending"
+                    href="https://www.trust-security.xyz/stella-audit"
+                  />
+                  <Audit
+                    label="Brahma Console"
+                    href="https://www.trust-security.xyz/brahma-audit"
+                  />
+                  <Audit
+                    label="The Graph Operator Decentralization"
+                    href="https://www.trust-security.xyz/the-graph-audit"
+                  />
+                  <Audit
+                    label="Rysk - UniswapV3RangeOrderReactor"
+                    href="https://www.trust-security.xyz/rysk-audit"
+                  />
+                  <Audit
+                    label="Vagabond Token Transmuter"
+                    href="https://www.trust-security.xyz/vagabond-audit"
+                  />
+                  <Audit
+                    label="Ninja Yield Farming v3"
+                    href="https://www.trust-security.xyz/ninja-yielder-audit"
+                  />
+                  <Audit
+                    label="Lyra Finance"
+                    href="https://www.trust-security.xyz/lyra-audit"
+                  />
+                </ul>
+                <ul className="list-disc ml-6 mt-4 font-normal text-white">
+                  <Audit
+                    label="Hats Protocol"
+                    href="https://www.trust-security.xyz/hats-audit"
+                  />
+                  <Audit
+                    label="Satin Exchange"
+                    href="https://www.trust-security.xyz/satin-exchange-audit"
+                  />
+                  <Audit
+                    label="Lukso LSP"
+                    href="https://www.trust-security.xyz/lukso-audit"
+                  />
+                  <Audit
+                    label="Orbital Finance"
+                    href="https://www.trust-security.xyz/orbital-audit"
+                  />
+                  <Audit
+                    label="Mozaic Archimedes"
+                    href="https://www.trust-security.xyz/mozaic-audit"
+                  />
+                  <Audit
+                    label="Mozaic Archimedes"
+                    href="https://www.trust-security.xyz/mozaic-audit"
+                  />
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
                 Pashov Private Audits
               </h2>

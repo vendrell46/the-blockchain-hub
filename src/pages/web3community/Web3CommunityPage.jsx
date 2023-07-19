@@ -289,6 +289,10 @@ const Web3CommunityPage = () => {
                     label="Lightnet Marketplace by G360DAO"
                     href="https://lightnet.g360dao.io"
                   />
+                  <Recommendation
+                    label="Workpod Audits"
+                    href="https://t.co/t4qSeXUHRC"
+                  />
                   <Recommendation label="Cantina" href="https://cantina.xyz/" />
                 </ul>
                 <div id="Courses"></div>
