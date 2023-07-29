@@ -30,6 +30,11 @@ const Web3SecurityPage = () => {
         </p>{' '}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {contentCard(
+            'Learn attack vectors and explore H/M severity issues. Over/Underflow',
+            'I have gathered an explanation for a very popular vulnerability in Solidity, a few high and medium issues that are not a one-time thing but that you will potentially find in other protocols during your next audits.',
+            'https://medium.com/coinmonks/learn-attack-vectors-and-explore-h-m-severity-issues-over-underflow-e331aa41d97b?sk=ca0b10daa52776d21dda296b11b40ad8'
+          )}
+          {contentCard(
             'What is a Reentrancy attack? — Let’s understand them and prevent them.',
             'I am going to help you understand in a simple way what is a reentrancy attack and how you can prevent it. I`ll dive deeper in code examples in order to show where are the vulnerabilities.',
             'https://medium.com/@bloqarl/solidity-vulnerabilities-1-reentrancy-attacks-lets-understand-them-and-prevent-them-f6db8dc604de?sk=c27de6883dcc6a94349fed90102914c3'
@@ -65,9 +70,9 @@ const Web3SecurityPage = () => {
             'https://medium.com/@bloqarl/my-contest-audit-results-are-4-highs-7-mediums-do-you-see-this-a-lot-6eeb40016cab?sk=f1cc80129c14b7e91592d60efcf8fbde'
           )}
           {contentCard(
-            'Learn attack vectors and explore H/M severity issues. Over/Underflow',
-            'I have gathered an explanation for a very popular vulnerability in Solidity, a few high and medium issues that are not a one-time thing but that you will potentially find in other protocols during your next audits.',
-            'https://medium.com/coinmonks/learn-attack-vectors-and-explore-h-m-severity-issues-over-underflow-e331aa41d97b?sk=ca0b10daa52776d21dda296b11b40ad8'
+            'The ultimate way to boost your Smart Contract Audit skills — I am Shadow Auditing.',
+            'I am going tThe time arrived, I’ve embraced it and I am determined to improve my auditing skills not only by reading reports but by doing shadow audits. I found the right way to do them.',
+            'https://medium.com/@bloqarl/the-ultimate-way-to-boost-your-smart-contract-audit-skills-i-am-shadow-auditing-3d35fc2495a1?sk=90233fbddca6cc709bd4c7654c84f885'
           )}
         </div>
       </section>

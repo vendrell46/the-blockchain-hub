@@ -100,6 +100,10 @@ const PrivateAuditsPage = () => {
               <div>
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
                   <Tool
+                    label="BuildBear Private Testnet"
+                    href="https://www.buildbear.io/"
+                  />
+                  <Tool
                     label="Broken Token"
                     href="https://github.com/zeroknots/brokentoken?utm_source=substack&utm_medium=email"
                   />

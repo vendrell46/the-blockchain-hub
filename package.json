@@ -24,6 +24,8 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
     "react-redux": "^8.0.5",
+    "react-tweet": "^3.0.3",
+    "react-youtube": "^10.1.0",
     "styled-components": "^5.3.6",
     "walletlink": "^2.5.0",
     "web3": "^1.8.2"

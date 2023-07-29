@@ -115,7 +115,7 @@ const Navbar = () => {
                   href={'https://twitter.com/TheBlockChainer'}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="py-1 mt-1 mb-1 text-sm sm:text-md font-bold capitalize text-white rounded-md bg-blue-400 p-2 hidden sm:block"
+                  className="py-1 text-sm sm:text-md font-bold capitalize text-white rounded-md bg-blue-400 p-2 hidden sm:block"
                 >
                   Follow me
                 </Link>
@@ -132,10 +132,33 @@ const Navbar = () => {
                       height={25}
                     />
                   </Link>
+                </div>
+              </div>
 
-                  <span className="absolute left-0 bottom-0 transform translate-x-1/2 -translate-y-full opacity-0 bg-gray-800 text-white text-xs py-0 px-2 rounded-md transition-opacity duration-300 pointer-events-none">
-                    Twitter
-                  </span>
+              <div className="flex flex-col">
+                <div className="flex items-center">
+                  <Link
+                    href={'https://www.youtube.com/@theblockchainer'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="py-1 mt-1 text-sm sm:text-md font-bold capitalize text-black rounded-md bg-red-500 p-2 hidden sm:block"
+                  >
+                    Subscribe
+                  </Link>
+                  <div className="relative ml-4">
+                    <Link
+                      href={'https://www.youtube.com/@theblockchainer'}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src="/assets/youtube.png"
+                        alt="/"
+                        width={25}
+                        height={25}
+                      />
+                    </Link>
+                  </div>
                 </div>
               </div>
 
@@ -144,7 +167,7 @@ const Navbar = () => {
                   href={'https://medium.com/@bloqarl/membership'}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="py-1 mt-2 mb-2 text-sm sm:text-md font-bold capitalize text-white rounded-md bg-gray-800 p-2 hidden sm:block"
+                  className="py-1 mt-1 text-sm sm:text-md font-bold capitalize text-white rounded-md bg-gray-800 p-2 hidden sm:block"
                 >
                   Subscribe
                 </Link>
@@ -161,10 +184,6 @@ const Navbar = () => {
                       height={25}
                     />
                   </Link>
-
-                  <span className="absolute left-0 bottom-0 transform translate-x-1/2 -translate-y-full opacity-0 bg-gray-800 text-white text-xs py-0 px-2 rounded-md transition-opacity duration-300 pointer-events-none">
-                    Medium
-                  </span>
                 </div>
               </div>
             </div>
@@ -275,6 +294,15 @@ const Navbar = () => {
                         </li>
                       </ul>
                     )}
+                  </li>
+                  <Separator />
+                  <li>
+                    <Link
+                      href="/videos/Videos"
+                      className="text-gray-900 dark:text-white hover:underline"
+                    >
+                      Videos
+                    </Link>
                   </li>
                   <Separator />
                   <li>
@@ -450,6 +478,16 @@ const Navbar = () => {
                     </li>
                   </ul>
                 )}
+              </li>
+              <hr className="border-gray-500 my-4" />
+
+              <li>
+                <Link
+                  href="/videos/Videos"
+                  className="text-gray-900 dark:text-white hover:underline mt-4"
+                >
+                  Videos
+                </Link>
               </li>
               <hr className="border-gray-500 my-4" />
 

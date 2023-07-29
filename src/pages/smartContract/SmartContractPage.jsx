@@ -60,6 +60,11 @@ const SmartContractPage = () => {
             'When it comes to writing efficient and cost-effective smart contracts on the Ethereum blockchain, every little bit of gas savings counts. One way to optimize gas usage is by using assembly.',
             'https://medium.com/@bloqarl/solidity-gas-optimization-tips-with-assembly-you-havent-heard-yet-1381c77ff078?sk=60145cae2d640e4d7ac584dcdd92570b'
           )}
+          {contentCard(
+            'Save over a HUNDRED THOUSAND gas with this Solidity Gas Optimization tip',
+            'This approach has huge gas-saving power and I want to show you in which scenarios it can have a very big impact to optimize the smart contract’s gas consumption.',
+            'https://medium.com/@bloqarl/save-over-a-hundred-thousand-gas-with-this-solidity-gas-optimization-tip-ba791d6acafd?sk=43fc0ae06bef828126c85deeec91ed3f'
+          )}
         </div>
       </section>
       <section>
@@ -91,6 +96,11 @@ const SmartContractPage = () => {
             'Awesome EIP2535 Diamond resources',
             '',
             'https://github.com/mudgen/awesome-diamonds'
+          )}
+          {contentCard(
+            'Awesome zero knowledge proofs (zkp)',
+            '',
+            'https://github.com/matter-labs/awesome-zero-knowledge-proofs'
           )}
         </div>
       </section>
