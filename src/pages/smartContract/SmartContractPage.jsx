@@ -102,6 +102,16 @@ const SmartContractPage = () => {
             '',
             'https://github.com/matter-labs/awesome-zero-knowledge-proofs'
           )}
+          {contentCard(
+            'The RareSkills Book of Gas Optimization',
+            '',
+            'https://www.rareskills.io/post/gas-optimization'
+          )}
+          {contentCard(
+            'Mastering Pure Yul Development',
+            '',
+            'https://github.com/wvleak/mastering-pure-yul'
+          )}
         </div>
       </section>
     </div>

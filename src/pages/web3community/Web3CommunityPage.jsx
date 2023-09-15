@@ -40,6 +40,10 @@ const Web3CommunityPage = () => {
                     href="https://t.co/m9fMLfXhEU"
                   />
                   <Recommendation
+                    label="OpenSense"
+                    href="https://discord.com/invite/opensense"
+                  />
+                  <Recommendation
                     label="web3sec.news"
                     href="https://t.co/MM9Xg4Cr7P"
                   />
@@ -362,6 +366,10 @@ const Web3CommunityPage = () => {
                     label="Cairo Playground"
                     href="https://www.cairo-lang.org/playground/"
                   />
+                  <Recommendation
+                    label="ONLYPNER"
+                    href="https://onlypwner.xyz/"
+                  />
                 </ul>
                 <div id="Podcasts"></div>
               </div>
@@ -381,6 +389,10 @@ const Web3CommunityPage = () => {
                   <Recommendation
                     label="Devs Do Something"
                     href="https://www.devsdosomething.fm/"
+                  />
+                  <Recommendation
+                    label="Scraping Bits - DeGatchi"
+                    href="https://open.spotify.com/show/0u41erQGzWWaE6xjmZMDNN?si=e438e5a45c814fcd"
                   />
                 </ul>
               </div>

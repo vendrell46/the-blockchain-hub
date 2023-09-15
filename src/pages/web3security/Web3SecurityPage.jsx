@@ -30,6 +30,11 @@ const Web3SecurityPage = () => {
         </p>{' '}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {contentCard(
+            'How to efficiently prepare for a productive Smart Contract Audit',
+            'Ensure that your smart contracts are as prepared as possible for the security review. Go into the ultimate guide to efficiently prepare your smart contracts.',
+            'https://blog.soken.io/how-to-efficiently-prepare-for-a-productive-smart-contract-audit-6ddc9751c960?sk=01500650708fc890c7d8a4980ec16499'
+          )}
+          {contentCard(
             'Learn attack vectors and explore H/M severity issues. Over/Underflow',
             'I have gathered an explanation for a very popular vulnerability in Solidity, a few high and medium issues that are not a one-time thing but that you will potentially find in other protocols during your next audits.',
             'https://medium.com/coinmonks/learn-attack-vectors-and-explore-h-m-severity-issues-over-underflow-e331aa41d97b?sk=ca0b10daa52776d21dda296b11b40ad8'
@@ -71,7 +76,7 @@ const Web3SecurityPage = () => {
           )}
           {contentCard(
             'The ultimate way to boost your Smart Contract Audit skills — I am Shadow Auditing.',
-            'I am going tThe time arrived, I’ve embraced it and I am determined to improve my auditing skills not only by reading reports but by doing shadow audits. I found the right way to do them.',
+            'The time arrived, I’ve embraced it and I am determined to improve my auditing skills not only by reading reports but by doing shadow audits. I found the right way to do them.',
             'https://medium.com/@bloqarl/the-ultimate-way-to-boost-your-smart-contract-audit-skills-i-am-shadow-auditing-3d35fc2495a1?sk=90233fbddca6cc709bd4c7654c84f885'
           )}
         </div>
@@ -190,6 +195,16 @@ const Web3SecurityPage = () => {
             'Smart Contract Vulnerabilities',
             '',
             'https://github.com/kadenzipfel/smart-contract-vulnerabilities'
+          )}
+          {contentCard(
+            'Multichain Auditor',
+            '',
+            'https://github.com/0xJuancito/multichain-auditor'
+          )}
+          {contentCard(
+            'Smart Contract Security Verification Standard',
+            '',
+            'https://github.com/ComposableSecurity/SCSVS/blob/master/README.md'
           )}
         </div>
       </section>

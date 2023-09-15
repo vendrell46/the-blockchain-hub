@@ -50,7 +50,7 @@ const PrivateAuditsPage = () => {
               <div>
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
                   <Tool
-                    label="Automated Market Maker Playground"
+                    label="Automated Market Playground"
                     href="https://amm-playground.on.fleek.co/"
                   />
                   <Tool
@@ -94,6 +94,21 @@ const PrivateAuditsPage = () => {
 
             <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
+                Code Searcher
+              </h2>
+              <hr className="border-gray-500 my-4" />
+              <div>
+                <ul className="list-disc ml-6 mt-4 font-normal text-white">
+                  <Tool
+                    label="Sourcegraph"
+                    href="https://sourcegraph.com/search"
+                  />
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
+              <h2 className="text-xl font-semibold mb-2 text-left text-white">
                 Testing
               </h2>
               <hr className="border-gray-500 my-4" />
@@ -106,6 +121,10 @@ const PrivateAuditsPage = () => {
                   <Tool
                     label="Broken Token"
                     href="https://github.com/zeroknots/brokentoken?utm_source=substack&utm_medium=email"
+                  />
+                  <Tool
+                    label="Medusa (Fuzzing)"
+                    href="https://github.com/crytic/medusa"
                   />
                 </ul>
               </div>
@@ -126,6 +145,18 @@ const PrivateAuditsPage = () => {
                     label="Convert second to year"
                     href="https://www.unitconverters.net/time/second-to-year.htm"
                   />
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
+              <h2 className="text-xl font-semibold mb-2 text-left text-white">
+                Online Whiteboard
+              </h2>
+              <hr className="border-gray-500 my-4" />
+              <div>
+                <ul className="list-disc ml-6 mt-4 font-normal text-white">
+                  <Tool label="Excalidraw" href="https://excalidraw.com/" />
                 </ul>
               </div>
             </div>
