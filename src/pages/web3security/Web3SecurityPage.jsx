@@ -197,7 +197,7 @@ const Web3SecurityPage = () => {
             'https://github.com/kadenzipfel/smart-contract-vulnerabilities'
           )}
           {contentCard(
-            'Multichain Auditor',
+            'Multi-chain Auditor',
             '',
             'https://github.com/0xJuancito/multichain-auditor'
           )}
@@ -205,6 +205,11 @@ const Web3SecurityPage = () => {
             'Smart Contract Security Verification Standard',
             '',
             'https://github.com/ComposableSecurity/SCSVS/blob/master/README.md'
+          )}
+          {contentCard(
+            'Immunefi bug bounty write-ups list',
+            '',
+            'https://github.com/sayan011/Immunefi-bug-bounty-writeups-list'
           )}
         </div>
       </section>

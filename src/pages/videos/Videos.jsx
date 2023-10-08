@@ -24,6 +24,21 @@ const Videos = () => {
       </p>{' '}
       <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-2 mt-10">
         <VideoCard
+          imageUrl="/assets/youtube/startBlockchain.png"
+          link="https://youtu.be/hgoBsfjutLo?si=B6mC508YlFos048O"
+          length="5:19"
+        />
+        <VideoCard
+          imageUrl="/assets/youtube/notSolidity.png"
+          link="https://youtu.be/ZSQGT6IvFog?si=Es63Z1XfzV-4ZTnk"
+          length="7:18"
+        />
+        <VideoCard
+          imageUrl="/assets/youtube/roadmap1.png"
+          link="https://youtu.be/VaSXA-HR2xY?si=3ZycWXxYYW7Cr0BO"
+          length="14:30"
+        />
+        <VideoCard
           imageUrl="/assets/youtube/Medium1.png"
           link="https://youtu.be/jiY7IfLAh5Y?si=ElEmF7aAiUDKTw0B"
           length="1:37"

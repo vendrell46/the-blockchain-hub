@@ -10,7 +10,7 @@ const Services = () => {
       className="flex flex-col items-center justify-center mt-14"
     >
       <div className="">
-        <h1 className="text-4xl text-center p-4 text-[#00FFFF] ">Services</h1>
+        <h1 className="text-4xl text-center p-4 text-[#00FFFF] ">Hire me!</h1>
       </div>
 
       <p className="text-lg text-center mt-8 text-white">
@@ -20,11 +20,11 @@ const Services = () => {
       <div className="flex flex-wrap mt-16 justify-center">
         <div className="w-full md:w-1/3 bg-gray-800 rounded-lg p-10 m-4 ">
           <h2 className="text-xl font-semibold mb-2 text-white">
-            Blockchain Technical Content Writer
+            Web3 Security Technical Writer
           </h2>
           <p className="text-white mt-10">
-            I like writing about anything interesting Blockchain-related. Reach
-            out with your proposal.
+            I am able to research, analyze and write about any complex topics
+            related to Web3. Reach out with your proposal.
           </p>
         </div>
 
@@ -32,10 +32,7 @@ const Services = () => {
           <h2 className="text-xl font-semibold mb-2 text-white">
             Book a Private Audit
           </h2>
-          <p className="text-white mt-10">
-            Deep and complete audit offered and also a base package offered for
-            small projects.
-          </p>
+          <p className="text-white mt-10">First solo audit with me FOR FREE.</p>
         </div>
       </div>
 

@@ -310,7 +310,7 @@ const Navbar = () => {
                       href="/services/ServicesPage"
                       className="text-gray-900 dark:text-white hover:underline"
                     >
-                      Services
+                      Hire me
                     </Link>
                   </li>
                   <Separator />
@@ -496,7 +496,7 @@ const Navbar = () => {
                   href="/services/ServicesPage"
                   className="text-gray-900 dark:text-white hover:underline mt-4"
                 >
-                  Services
+                  Hire me
                 </Link>
               </li>
               <hr className="border-gray-500 my-4" />

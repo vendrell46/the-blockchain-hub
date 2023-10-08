@@ -97,6 +97,10 @@ const PostMortemReports = () => {
                     label="USEA Token`s $1.1 Million Rug Pull"
                     href="https://quillaudits.medium.com/decoding-usea-tokens-1-1-million-rug-pull-quillaudits-75f049f68e63?source=user_profile"
                   />
+                  <Report
+                    label="QuillAudits Joins Scalar DAO To Reinforce Smart Contract Security In DAO Development"
+                    href="https://quillaudits.medium.com/quillaudits-joins-scalar-dao-to-reinforce-smart-contract-security-in-dao-development-a88894551fbc?source=user_profile"
+                  />
                 </ul>
               </div>
             </div>

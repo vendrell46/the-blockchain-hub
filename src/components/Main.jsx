@@ -39,17 +39,27 @@ const Main = () => {
           </div>
 
           <div className="text-center bg-gray-100 p-6 mb-6 justify-center mx-auto">
-            <h2 className="pt-4">Read articles related to Web3 Security</h2>
+            <h2 className="pt-4">
+              Read articles and Watch videos related to Web3 Security
+            </h2>
             <h3 className="py-2 text-gray-600 mb-4">
-              Go ahead and start navigating through the different topics I write
-              about and other resources.
+              Go ahead and start discovering and learning new things with the
+              available resources.
             </h3>
-            <Link
-              href="/#Articles"
-              className="py-2 mt-4 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
-            >
-              Start Reading
-            </Link>
+            <div className="flex justify-center space-x-10 mx-auto">
+              <Link
+                href="/#Articles"
+                className="py-2 mt-4 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
+              >
+                Start Reading
+              </Link>
+              <Link
+                href="/videos/Videos"
+                className="py-2 mt-4 mb-2 text-md font-bold capitalize text-white rounded-md w-26 bg-gray-800 p-2"
+              >
+                Start Watching
+              </Link>
+            </div>
           </div>
           <div className="bg-gray-100 p-6 mb-6 text-center mx-auto">
             <h2 className="pt-4">

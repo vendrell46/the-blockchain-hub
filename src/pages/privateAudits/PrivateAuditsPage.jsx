@@ -34,6 +34,7 @@ const PrivateAuditsPage = () => {
               <div>
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
                   <Audit label="The Block Temple - Reviews on-chain" />
+                  <Audit label="Not Public Yet - GingerSec" />
                   <Audit label="Not Public Yet" />
                 </ul>
               </div>
@@ -303,7 +304,7 @@ const PrivateAuditsPage = () => {
                 <ul className="list-disc ml-6 mt-4 font-normal text-white">
                   <Audit
                     label="Vinci - Staking & ERC20 Token"
-                    href="https://github.com/gogotheauditor/audits/blob/main/reports/Vinci-Solo-Security-Review.pdf"
+                    href="https://github.com/gogotheauditor/audits/blob/main/reports/Vinci-Security-Review.pdf"
                   />
                   <Audit
                     label="Metalabel - ERC721 Collection Releasing"

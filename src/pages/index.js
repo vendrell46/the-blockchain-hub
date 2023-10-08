@@ -5,6 +5,7 @@ import Articles from 'theblockchainhub/components/Articles';
 import Services from 'theblockchainhub/components/Services';
 import Auditing from 'theblockchainhub/components/Auditing';
 import Web3Community from 'theblockchainhub/components/Web3Community';
+import Partners from 'theblockchainhub/components/Partners';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <Auditing />
       <Web3Community />
+      <Partners />
     </div>
   );
 }

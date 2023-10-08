@@ -16,7 +16,7 @@ const ServicesPage = () => {
       <div className="flex flex-wrap flex-col mt-18 justify-center items-center">
         <div className="w-full md:w-2/3 bg-gray-800 rounded-lg p-14 m-4 ">
           <h2 className="text-xl font-semibold mb-2 text-center text-white">
-            Blockchain Technical Content Writer
+            Web3 Security Technical Writer
           </h2>
           <hr className="border-gray-500 my-4" />
           <div>

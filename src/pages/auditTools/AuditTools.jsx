@@ -24,6 +24,20 @@ const PrivateAuditsPage = () => {
             <b>Audit tools</b>
           </h2>
           <div className="flex flex-wrap mt-18 justify-left">
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
+              <h2 className="text-xl font-semibold mb-2 text-left text-white">
+                All-in-one
+              </h2>
+              <hr className="border-gray-500 my-4" />
+              <div>
+                <ul className="list-disc ml-6 mt-4 font-normal text-white">
+                  <Tool
+                    label="Audit Wizard platform"
+                    href="https://www.auditwizard.io/"
+                  />
+                </ul>
+              </div>
+            </div>
             <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border mt-12">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
                 Cryptography
@@ -42,6 +56,26 @@ const PrivateAuditsPage = () => {
                 </ul>
               </div>
             </div>
+
+            <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
+              <h2 className="text-xl font-semibold mb-2 text-left text-white">
+                Transaction explorer
+              </h2>
+              <hr className="border-gray-500 my-4" />
+              <div>
+                <ul className="list-disc ml-6 mt-4 font-normal text-white">
+                  <Tool
+                    label="Tenderly"
+                    href="https://dashboard.tenderly.co/explorer"
+                  />
+                  <Tool
+                    label="Blocksec Phalcon"
+                    href="https://explorer.phalcon.xyz/"
+                  />
+                </ul>
+              </div>
+            </div>
+
             <div className="w-full md:w-2/3 bg-black rounded-lg p-10 m-4 shadow-3d border">
               <h2 className="text-xl font-semibold mb-2 text-left text-white">
                 Simulator

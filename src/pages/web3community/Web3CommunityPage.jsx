@@ -322,6 +322,10 @@ const Web3CommunityPage = () => {
                     label="Alchemy University"
                     href="https://university.alchemy.com/"
                   />
+                  <Recommendation
+                    label="RareSkills"
+                    href="https://www.rareskills.io/"
+                  />
                 </ul>
                 <div id="CodeChallenges"></div>
               </div>
@@ -367,7 +371,7 @@ const Web3CommunityPage = () => {
                     href="https://www.cairo-lang.org/playground/"
                   />
                   <Recommendation
-                    label="ONLYPNER"
+                    label="ONLYPwNER"
                     href="https://onlypwner.xyz/"
                   />
                 </ul>
@@ -393,6 +397,10 @@ const Web3CommunityPage = () => {
                   <Recommendation
                     label="Scraping Bits - DeGatchi"
                     href="https://open.spotify.com/show/0u41erQGzWWaE6xjmZMDNN?si=e438e5a45c814fcd"
+                  />
+                  <Recommendation
+                    label="Proof Of Podcast"
+                    href="https://rss.com/podcasts/proofofpodcast/"
                   />
                 </ul>
               </div>

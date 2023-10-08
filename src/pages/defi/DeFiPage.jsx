@@ -97,6 +97,16 @@ const DeFiPage = () => {
             '',
             'https://blog.smlxl.io/defi-lending-concepts-part-1-lending-and-borrowing-f646d6a08dd7'
           )}
+          {contentCard(
+            'Arbitrum: Differences from Ethereum',
+            '',
+            'https://officercia.mirror.xyz/d798TVQyA1ALq3qr1R9vvujdF7x-erXxK2wQWwbgRKY'
+          )}
+          {contentCard(
+            'Awesome Zero Knowledge',
+            '',
+            'https://github.com/ventali/awesome-zk'
+          )}
         </div>
       </section>
     </div>

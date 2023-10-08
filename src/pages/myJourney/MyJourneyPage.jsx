@@ -79,6 +79,16 @@ const MyJourneyPage = () => {
           'Is it actually possible to use ChatGPT to build a website? I spent one month building a website on my own and another one with ChatGPT prompts help.',
           'https://medium.com/@bloqarl/how-i-used-chatgpt-to-help-me-build-my-web3-security-website-8f0aed95dd2e?sk=2cf51cdffb464945fd38abbbdc74075e'
         )}
+        {contentCard(
+          'Are you certain you are using the most complete Web3 Security site?',
+          'How many different sites you have got bookmarked on your browser web3 related??? It is important to keep track of those that are worth it…',
+          'https://medium.com/@bloqarl/are-you-certain-you-are-using-the-most-complete-web3-security-site-4906c2088d7b?sk=15139e1e74439ab243276de9ce2e0b63'
+        )}
+        {contentCard(
+          'Incredible! My Medium articles got me a Technical Writer job! Learn how you can as well.',
+          'What would you do if you were on holiday, at the beach in Greece, and some company contacted you to set up a call for a potential collaboration?',
+          'https://medium.com/@bloqarl/incredible-my-medium-articles-got-me-a-technical-writer-job-learn-how-you-can-as-well-1801cad3b814?sk=babda47faf2453b3d9bf6d1e6d41ba5f'
+        )}
       </div>
     </div>
   );
